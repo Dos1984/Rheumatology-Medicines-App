@@ -1,10 +1,11 @@
 {
   "meta": {
-    "version": "1.3",
+    "version": "1.4",
     "verified_on": "2026-09-22",
     "scope": "Representative Irish/EU SmPC-derived rheumatology prescribing dataset. Device-specific instructions remain product-specific.",
     "ui_note": "Exact brand/formulation selection restored. Brand-specific SmPC/EMA provenance is shown; Humira may serve as an explicitly labelled reference only for unextracted adalimumab fields.",
-    "patient_model": "Patient accordions mirror the csDMARD education structure: purpose, administration, common side effects, stop/hold red flags, monitoring/tests, practical safety advice, and product/resource links."
+    "patient_model": "Patient accordions mirror the csDMARD education structure: purpose, administration, common side effects, stop/hold red flags, monitoring/tests, practical safety advice, and product/resource links.",
+    "clinician_rule": "Clinician accordions contain in-app section summaries. External SmPC links are supplemental provenance/deep links, not instructions to look up missing core information."
   },
   "products": [
     {
@@ -30,23 +31,34 @@
           "Vaccination review"
         ],
         "contra": [
-          "Apply exact section 4.3 contraindications from the selected SmPC.",
-          "Check hepatic/renal impairment, cytopenia and infection risks specific to the medicine."
+          "Hypersensitivity to methotrexate or excipients.",
+          "Severe hepatic impairment / significant active liver disease as defined by the selected product.",
+          "Severe renal impairment according to the selected product threshold.",
+          "Pre-existing blood dyscrasias or significant bone-marrow suppression.",
+          "Serious, acute or chronic infections and immunodeficiency syndromes where specified.",
+          "Stomatitis or active gastrointestinal ulcer disease where specified.",
+          "Pregnancy for non-oncological indications; breastfeeding where contraindicated by the selected product.",
+          "Concurrent live vaccination during methotrexate therapy where specified."
         ],
         "warn": [
-          "Review section 4.4 warnings before initiation and after clinically significant changes.",
-          "Assess infection, liver, lung and pregnancy risks as applicable."
+          "Methotrexate for inflammatory disease is taken once weekly; daily administration errors can be fatal.",
+          "Monitor FBC, renal function and liver tests; toxicity increases with renal impairment and interacting medicines.",
+          "New persistent cough or breathlessness requires prompt assessment for methotrexate-associated pneumonitis/lung toxicity.",
+          "Assess hepatic risk and alcohol exposure; persistent liver-test abnormalities require evaluation.",
+          "Serious skin reactions, infection, cytopenia and gastrointestinal toxicity require prompt review."
         ],
         "inter": [
-          "Medication reconciliation including OTC/herbal products.",
-          "Apply section 4.5 interactions for the selected medicine."
+          "Avoid trimethoprim/co-trimoxazole because of risk of severe bone-marrow suppression.",
+          "Review NSAIDs, antibiotics, proton-pump inhibitors and other medicines that can alter renal elimination or increase methotrexate toxicity; clinical significance depends on dose and context.",
+          "Avoid additional hepatotoxic medicines/alcohol excess where clinically relevant."
         ],
         "preg": [
-          "Apply section 4.6 product-specific contraception, pregnancy, fertility and breastfeeding advice."
+          "Contraindicated in pregnancy for non-oncological indications. Apply current SmPC contraception/washout requirements to women and men where applicable.",
+          "Breastfeeding advice must follow the selected product's current section 4.6."
         ],
         "ae": [
-          "Counsel on common adverse effects and medicine-specific serious red flags.",
-          "Escalate significant infection, cytopenia, hepatic injury or organ-specific toxicity as applicable."
+          "Common effects include nausea, abdominal/GI symptoms, mouth ulcers, headache/fatigue and liver-enzyme abnormalities.",
+          "Red flags: fever/infection, severe mouth ulceration, unexplained bruising/bleeding, jaundice, severe GI symptoms, new persistent cough or breathlessness."
         ],
         "monitor": [
           "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
@@ -82,6 +94,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/medicines/methotrexate-2-5-mg-tablets-34745#4.3",
+        "4.4": "https://www.medicines.ie/medicines/methotrexate-2-5-mg-tablets-34745#4.4",
+        "4.5": "https://www.medicines.ie/medicines/methotrexate-2-5-mg-tablets-34745#4.5",
+        "4.6": "https://www.medicines.ie/medicines/methotrexate-2-5-mg-tablets-34745#4.6",
+        "4.8": "https://www.medicines.ie/medicines/methotrexate-2-5-mg-tablets-34745#4.8"
       }
     },
     {
@@ -112,23 +131,34 @@
           "Vaccination review"
         ],
         "contra": [
-          "Apply exact section 4.3 contraindications from the selected SmPC.",
-          "Check hepatic/renal impairment, cytopenia and infection risks specific to the medicine."
+          "Hypersensitivity to methotrexate or excipients.",
+          "Severe hepatic impairment / significant active liver disease as defined by the selected product.",
+          "Severe renal impairment according to the selected product threshold.",
+          "Pre-existing blood dyscrasias or significant bone-marrow suppression.",
+          "Serious, acute or chronic infections and immunodeficiency syndromes where specified.",
+          "Stomatitis or active gastrointestinal ulcer disease where specified.",
+          "Pregnancy for non-oncological indications; breastfeeding where contraindicated by the selected product.",
+          "Concurrent live vaccination during methotrexate therapy where specified."
         ],
         "warn": [
-          "Review section 4.4 warnings before initiation and after clinically significant changes.",
-          "Assess infection, liver, lung and pregnancy risks as applicable."
+          "Methotrexate for inflammatory disease is taken once weekly; daily administration errors can be fatal.",
+          "Monitor FBC, renal function and liver tests; toxicity increases with renal impairment and interacting medicines.",
+          "New persistent cough or breathlessness requires prompt assessment for methotrexate-associated pneumonitis/lung toxicity.",
+          "Assess hepatic risk and alcohol exposure; persistent liver-test abnormalities require evaluation.",
+          "Serious skin reactions, infection, cytopenia and gastrointestinal toxicity require prompt review."
         ],
         "inter": [
-          "Medication reconciliation including OTC/herbal products.",
-          "Apply section 4.5 interactions for the selected medicine."
+          "Avoid trimethoprim/co-trimoxazole because of risk of severe bone-marrow suppression.",
+          "Review NSAIDs, antibiotics, proton-pump inhibitors and other medicines that can alter renal elimination or increase methotrexate toxicity; clinical significance depends on dose and context.",
+          "Avoid additional hepatotoxic medicines/alcohol excess where clinically relevant."
         ],
         "preg": [
-          "Apply section 4.6 product-specific contraception, pregnancy, fertility and breastfeeding advice."
+          "Contraindicated in pregnancy for non-oncological indications. Apply current SmPC contraception/washout requirements to women and men where applicable.",
+          "Breastfeeding advice must follow the selected product's current section 4.6."
         ],
         "ae": [
-          "Counsel on common adverse effects and medicine-specific serious red flags.",
-          "Escalate significant infection, cytopenia, hepatic injury or organ-specific toxicity as applicable."
+          "Common effects include nausea, abdominal/GI symptoms, mouth ulcers, headache/fatigue and liver-enzyme abnormalities.",
+          "Red flags: fever/infection, severe mouth ulceration, unexplained bruising/bleeding, jaundice, severe GI symptoms, new persistent cough or breathlessness."
         ],
         "monitor": [
           "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
@@ -164,6 +194,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/#4.3",
+        "4.4": "https://www.medicines.ie/#4.4",
+        "4.5": "https://www.medicines.ie/#4.5",
+        "4.6": "https://www.medicines.ie/#4.6",
+        "4.8": "https://www.medicines.ie/#4.8"
       }
     },
     {
@@ -1708,24 +1745,30 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Apply exact section 4.3 contraindications.",
-          "Do not initiate with serious active infection; observe product laboratory thresholds."
+          "Hypersensitivity to baricitinib or any excipient.",
+          "Pregnancy."
         ],
         "warn": [
-          "Serious infection/TB and herpes zoster.",
-          "MACE, malignancy and VTE risk warnings require individual risk assessment.",
-          "Use only when appropriate alternatives and current regulatory restrictions have been considered in higher-risk patients."
+          "Do not initiate below product laboratory thresholds for lymphocytes, neutrophils or haemoglobin; interrupt according to SmPC thresholds.",
+          "Serious infections and opportunistic infections can occur; interrupt treatment if a serious infection develops.",
+          "Screen for tuberculosis before treatment and consider viral hepatitis screening/reactivation risk.",
+          "Use only after careful risk assessment in patients at increased risk of major cardiovascular events, malignancy or venous thromboembolism, particularly older patients and current/past long-term smokers, in line with current SmPC restrictions.",
+          "If clinical features of DVT/PE occur, discontinue and evaluate promptly.",
+          "Monitor hepatic transaminases and lipids; investigate suspected drug-induced liver injury.",
+          "Avoid live attenuated vaccines during or immediately before treatment."
         ],
         "inter": [
-          "Review CYP/P-gp or other product-specific interactions.",
-          "Avoid combination with biologic DMARDs or other potent immunosuppressants unless specifically supported."
+          "Combination with biologic DMARDs, biologic immunomodulators or other JAK inhibitors is not recommended.",
+          "Use with potent immunosuppressants such as azathioprine, tacrolimus or ciclosporin requires caution / is not recommended where specified because additive immunosuppression cannot be excluded.",
+          "Strong OAT3 inhibitors can increase baricitinib exposure; apply the current product-specific dose advice."
         ],
         "preg": [
-          "Apply section 4.6 product-specific contraception, pregnancy and breastfeeding restrictions."
+          "Contraindicated during pregnancy. Use effective contraception during treatment and for the SmPC-specified period after treatment.",
+          "Breastfeeding and fertility advice should follow the current section 4.6."
         ],
         "ae": [
-          "Infection, herpes zoster, cytopenias, liver enzyme/lipid changes.",
-          "Urgent assessment for VTE, cardiovascular, serious infection or other product-specific red flags."
+          "Common clinically relevant effects include infections, herpes zoster, nausea, raised lipids and laboratory abnormalities.",
+          "Red flags: serious infection, shingles involving eye/face or severe disease, DVT/PE symptoms, cardiovascular event symptoms, severe cytopenia or suspected liver injury."
         ],
         "monitor": [
           "FBC, liver tests and lipids at product-specified intervals; renal monitoring where relevant.",
@@ -1763,6 +1806,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/medicines/olumiant-2-mg-and-4-mg-film-coated-tablets-33207#4.3",
+        "4.4": "https://www.medicines.ie/medicines/olumiant-2-mg-and-4-mg-film-coated-tablets-33207#4.4",
+        "4.5": "https://www.medicines.ie/medicines/olumiant-2-mg-and-4-mg-film-coated-tablets-33207#4.5",
+        "4.6": "https://www.medicines.ie/medicines/olumiant-2-mg-and-4-mg-film-coated-tablets-33207#4.6",
+        "4.8": "https://www.medicines.ie/medicines/olumiant-2-mg-and-4-mg-film-coated-tablets-33207#4.8"
       }
     },
     {
@@ -4774,24 +4824,29 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
-          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+          "Hypersensitivity to adalimumab or product excipients.",
+          "Active tuberculosis or other severe infections such as sepsis and opportunistic infections.",
+          "Moderate to severe heart failure (NYHA class III/IV)."
         ],
         "warn": [
-          "Serious/opportunistic infection and TB risk.",
-          "HBV reactivation risk where relevant.",
-          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+          "Serious infections including tuberculosis and opportunistic infections: evaluate promptly and interrupt treatment if a new serious infection or sepsis develops.",
+          "Screen for active and latent tuberculosis before treatment; manage latent TB according to current recommendations.",
+          "Assess hepatitis B status; HBV reactivation has occurred in chronic carriers receiving TNF antagonists.",
+          "Avoid concurrent use with anakinra or abatacept because of increased serious infection risk without added clinical benefit.",
+          "Neurological demyelinating disorders, malignancy/lymphoproliferative disease, haematological reactions, lupus-like syndrome and severe allergic reactions require product-specific consideration.",
+          "Live vaccines should not be given concurrently. Infants exposed in utero require product-specific timing advice for live vaccines."
         ],
         "inter": [
-          "Avoid unapproved combinations of biologic immunosuppressants.",
-          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+          "Do not combine adalimumab with anakinra or abatacept.",
+          "Concomitant methotrexate reduces antibody formation and increases adalimumab exposure compared with monotherapy; no adalimumab dose adjustment is required solely for methotrexate."
         ],
         "preg": [
-          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+          "Women of childbearing potential should consider effective contraception during treatment and for the product-specified period after the last dose.",
+          "Pregnancy and breastfeeding decisions should follow the selected product's section 4.6; placental transfer can affect live-vaccine timing in exposed infants."
         ],
         "ae": [
-          "Infection and injection/infusion reactions are key counselling domains.",
-          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+          "Very common/common effects include infections, injection-site reactions, headache, musculoskeletal pain and laboratory abnormalities.",
+          "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
@@ -4833,6 +4888,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc#4.3",
+        "4.4": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc#4.4",
+        "4.5": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc#4.5",
+        "4.6": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc#4.6",
+        "4.8": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc#4.8"
       }
     },
     {
@@ -4865,24 +4927,29 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
-          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+          "Hypersensitivity to adalimumab or product excipients.",
+          "Active tuberculosis or other severe infections such as sepsis and opportunistic infections.",
+          "Moderate to severe heart failure (NYHA class III/IV)."
         ],
         "warn": [
-          "Serious/opportunistic infection and TB risk.",
-          "HBV reactivation risk where relevant.",
-          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+          "Serious infections including tuberculosis and opportunistic infections: evaluate promptly and interrupt treatment if a new serious infection or sepsis develops.",
+          "Screen for active and latent tuberculosis before treatment; manage latent TB according to current recommendations.",
+          "Assess hepatitis B status; HBV reactivation has occurred in chronic carriers receiving TNF antagonists.",
+          "Avoid concurrent use with anakinra or abatacept because of increased serious infection risk without added clinical benefit.",
+          "Neurological demyelinating disorders, malignancy/lymphoproliferative disease, haematological reactions, lupus-like syndrome and severe allergic reactions require product-specific consideration.",
+          "Live vaccines should not be given concurrently. Infants exposed in utero require product-specific timing advice for live vaccines."
         ],
         "inter": [
-          "Avoid unapproved combinations of biologic immunosuppressants.",
-          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+          "Do not combine adalimumab with anakinra or abatacept.",
+          "Concomitant methotrexate reduces antibody formation and increases adalimumab exposure compared with monotherapy; no adalimumab dose adjustment is required solely for methotrexate."
         ],
         "preg": [
-          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+          "Women of childbearing potential should consider effective contraception during treatment and for the product-specified period after the last dose.",
+          "Pregnancy and breastfeeding decisions should follow the selected product's section 4.6; placental transfer can affect live-vaccine timing in exposed infants."
         ],
         "ae": [
-          "Infection and injection/infusion reactions are key counselling domains.",
-          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+          "Very common/common effects include infections, injection-site reactions, headache, musculoskeletal pain and laboratory abnormalities.",
+          "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
@@ -4924,6 +4991,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.3",
+        "4.4": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.4",
+        "4.5": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.5",
+        "4.6": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.6",
+        "4.8": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.8"
       }
     },
     {
@@ -4956,24 +5030,29 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
-          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+          "Hypersensitivity to adalimumab or product excipients.",
+          "Active tuberculosis or other severe infections such as sepsis and opportunistic infections.",
+          "Moderate to severe heart failure (NYHA class III/IV)."
         ],
         "warn": [
-          "Serious/opportunistic infection and TB risk.",
-          "HBV reactivation risk where relevant.",
-          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+          "Serious infections including tuberculosis and opportunistic infections: evaluate promptly and interrupt treatment if a new serious infection or sepsis develops.",
+          "Screen for active and latent tuberculosis before treatment; manage latent TB according to current recommendations.",
+          "Assess hepatitis B status; HBV reactivation has occurred in chronic carriers receiving TNF antagonists.",
+          "Avoid concurrent use with anakinra or abatacept because of increased serious infection risk without added clinical benefit.",
+          "Neurological demyelinating disorders, malignancy/lymphoproliferative disease, haematological reactions, lupus-like syndrome and severe allergic reactions require product-specific consideration.",
+          "Live vaccines should not be given concurrently. Infants exposed in utero require product-specific timing advice for live vaccines."
         ],
         "inter": [
-          "Avoid unapproved combinations of biologic immunosuppressants.",
-          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+          "Do not combine adalimumab with anakinra or abatacept.",
+          "Concomitant methotrexate reduces antibody formation and increases adalimumab exposure compared with monotherapy; no adalimumab dose adjustment is required solely for methotrexate."
         ],
         "preg": [
-          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+          "Women of childbearing potential should consider effective contraception during treatment and for the product-specified period after the last dose.",
+          "Pregnancy and breastfeeding decisions should follow the selected product's section 4.6; placental transfer can affect live-vaccine timing in exposed infants."
         ],
         "ae": [
-          "Infection and injection/infusion reactions are key counselling domains.",
-          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+          "Very common/common effects include infections, injection-site reactions, headache, musculoskeletal pain and laboratory abnormalities.",
+          "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
@@ -5015,6 +5094,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio#4.3",
+        "4.4": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio#4.4",
+        "4.5": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio#4.5",
+        "4.6": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio#4.6",
+        "4.8": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio#4.8"
       }
     },
     {
@@ -5047,24 +5133,29 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
-          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+          "Hypersensitivity to adalimumab or product excipients.",
+          "Active tuberculosis or other severe infections such as sepsis and opportunistic infections.",
+          "Moderate to severe heart failure (NYHA class III/IV)."
         ],
         "warn": [
-          "Serious/opportunistic infection and TB risk.",
-          "HBV reactivation risk where relevant.",
-          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+          "Serious infections including tuberculosis and opportunistic infections: evaluate promptly and interrupt treatment if a new serious infection or sepsis develops.",
+          "Screen for active and latent tuberculosis before treatment; manage latent TB according to current recommendations.",
+          "Assess hepatitis B status; HBV reactivation has occurred in chronic carriers receiving TNF antagonists.",
+          "Avoid concurrent use with anakinra or abatacept because of increased serious infection risk without added clinical benefit.",
+          "Neurological demyelinating disorders, malignancy/lymphoproliferative disease, haematological reactions, lupus-like syndrome and severe allergic reactions require product-specific consideration.",
+          "Live vaccines should not be given concurrently. Infants exposed in utero require product-specific timing advice for live vaccines."
         ],
         "inter": [
-          "Avoid unapproved combinations of biologic immunosuppressants.",
-          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+          "Do not combine adalimumab with anakinra or abatacept.",
+          "Concomitant methotrexate reduces antibody formation and increases adalimumab exposure compared with monotherapy; no adalimumab dose adjustment is required solely for methotrexate."
         ],
         "preg": [
-          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+          "Women of childbearing potential should consider effective contraception during treatment and for the product-specified period after the last dose.",
+          "Pregnancy and breastfeeding decisions should follow the selected product's section 4.6; placental transfer can affect live-vaccine timing in exposed infants."
         ],
         "ae": [
-          "Infection and injection/infusion reactions are key counselling domains.",
-          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+          "Very common/common effects include infections, injection-site reactions, headache, musculoskeletal pain and laboratory abnormalities.",
+          "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
@@ -5106,6 +5197,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244#4.3",
+        "4.4": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244#4.4",
+        "4.5": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244#4.5",
+        "4.6": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244#4.6",
+        "4.8": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244#4.8"
       }
     },
     {
@@ -5138,24 +5236,29 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
-          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+          "Hypersensitivity to adalimumab or product excipients.",
+          "Active tuberculosis or other severe infections such as sepsis and opportunistic infections.",
+          "Moderate to severe heart failure (NYHA class III/IV)."
         ],
         "warn": [
-          "Serious/opportunistic infection and TB risk.",
-          "HBV reactivation risk where relevant.",
-          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+          "Serious infections including tuberculosis and opportunistic infections: evaluate promptly and interrupt treatment if a new serious infection or sepsis develops.",
+          "Screen for active and latent tuberculosis before treatment; manage latent TB according to current recommendations.",
+          "Assess hepatitis B status; HBV reactivation has occurred in chronic carriers receiving TNF antagonists.",
+          "Avoid concurrent use with anakinra or abatacept because of increased serious infection risk without added clinical benefit.",
+          "Neurological demyelinating disorders, malignancy/lymphoproliferative disease, haematological reactions, lupus-like syndrome and severe allergic reactions require product-specific consideration.",
+          "Live vaccines should not be given concurrently. Infants exposed in utero require product-specific timing advice for live vaccines."
         ],
         "inter": [
-          "Avoid unapproved combinations of biologic immunosuppressants.",
-          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+          "Do not combine adalimumab with anakinra or abatacept.",
+          "Concomitant methotrexate reduces antibody formation and increases adalimumab exposure compared with monotherapy; no adalimumab dose adjustment is required solely for methotrexate."
         ],
         "preg": [
-          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+          "Women of childbearing potential should consider effective contraception during treatment and for the product-specified period after the last dose.",
+          "Pregnancy and breastfeeding decisions should follow the selected product's section 4.6; placental transfer can affect live-vaccine timing in exposed infants."
         ],
         "ae": [
-          "Infection and injection/infusion reactions are key counselling domains.",
-          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+          "Very common/common effects include infections, injection-site reactions, headache, musculoskeletal pain and laboratory abnormalities.",
+          "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
@@ -5197,6 +5300,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696#4.3",
+        "4.4": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696#4.4",
+        "4.5": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696#4.5",
+        "4.6": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696#4.6",
+        "4.8": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696#4.8"
       }
     },
     {
@@ -5229,24 +5339,29 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
-          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+          "Hypersensitivity to adalimumab or product excipients.",
+          "Active tuberculosis or other severe infections such as sepsis and opportunistic infections.",
+          "Moderate to severe heart failure (NYHA class III/IV)."
         ],
         "warn": [
-          "Serious/opportunistic infection and TB risk.",
-          "HBV reactivation risk where relevant.",
-          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+          "Serious infections including tuberculosis and opportunistic infections: evaluate promptly and interrupt treatment if a new serious infection or sepsis develops.",
+          "Screen for active and latent tuberculosis before treatment; manage latent TB according to current recommendations.",
+          "Assess hepatitis B status; HBV reactivation has occurred in chronic carriers receiving TNF antagonists.",
+          "Avoid concurrent use with anakinra or abatacept because of increased serious infection risk without added clinical benefit.",
+          "Neurological demyelinating disorders, malignancy/lymphoproliferative disease, haematological reactions, lupus-like syndrome and severe allergic reactions require product-specific consideration.",
+          "Live vaccines should not be given concurrently. Infants exposed in utero require product-specific timing advice for live vaccines."
         ],
         "inter": [
-          "Avoid unapproved combinations of biologic immunosuppressants.",
-          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+          "Do not combine adalimumab with anakinra or abatacept.",
+          "Concomitant methotrexate reduces antibody formation and increases adalimumab exposure compared with monotherapy; no adalimumab dose adjustment is required solely for methotrexate."
         ],
         "preg": [
-          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+          "Women of childbearing potential should consider effective contraception during treatment and for the product-specified period after the last dose.",
+          "Pregnancy and breastfeeding decisions should follow the selected product's section 4.6; placental transfer can affect live-vaccine timing in exposed infants."
         ],
         "ae": [
-          "Infection and injection/infusion reactions are key counselling domains.",
-          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+          "Very common/common effects include infections, injection-site reactions, headache, musculoskeletal pain and laboratory abnormalities.",
+          "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
@@ -5288,6 +5403,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc#4.3",
+        "4.4": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc#4.4",
+        "4.5": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc#4.5",
+        "4.6": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc#4.6",
+        "4.8": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc#4.8"
       }
     },
     {
@@ -5320,24 +5442,29 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
-          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+          "Hypersensitivity to adalimumab or product excipients.",
+          "Active tuberculosis or other severe infections such as sepsis and opportunistic infections.",
+          "Moderate to severe heart failure (NYHA class III/IV)."
         ],
         "warn": [
-          "Serious/opportunistic infection and TB risk.",
-          "HBV reactivation risk where relevant.",
-          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+          "Serious infections including tuberculosis and opportunistic infections: evaluate promptly and interrupt treatment if a new serious infection or sepsis develops.",
+          "Screen for active and latent tuberculosis before treatment; manage latent TB according to current recommendations.",
+          "Assess hepatitis B status; HBV reactivation has occurred in chronic carriers receiving TNF antagonists.",
+          "Avoid concurrent use with anakinra or abatacept because of increased serious infection risk without added clinical benefit.",
+          "Neurological demyelinating disorders, malignancy/lymphoproliferative disease, haematological reactions, lupus-like syndrome and severe allergic reactions require product-specific consideration.",
+          "Live vaccines should not be given concurrently. Infants exposed in utero require product-specific timing advice for live vaccines."
         ],
         "inter": [
-          "Avoid unapproved combinations of biologic immunosuppressants.",
-          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+          "Do not combine adalimumab with anakinra or abatacept.",
+          "Concomitant methotrexate reduces antibody formation and increases adalimumab exposure compared with monotherapy; no adalimumab dose adjustment is required solely for methotrexate."
         ],
         "preg": [
-          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+          "Women of childbearing potential should consider effective contraception during treatment and for the product-specified period after the last dose.",
+          "Pregnancy and breastfeeding decisions should follow the selected product's section 4.6; placental transfer can affect live-vaccine timing in exposed infants."
         ],
         "ae": [
-          "Infection and injection/infusion reactions are key counselling domains.",
-          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+          "Very common/common effects include infections, injection-site reactions, headache, musculoskeletal pain and laboratory abnormalities.",
+          "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
@@ -5379,6 +5506,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc#4.3",
+        "4.4": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc#4.4",
+        "4.5": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc#4.5",
+        "4.6": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc#4.6",
+        "4.8": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc#4.8"
       }
     },
     {
@@ -5411,24 +5545,29 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
-          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+          "Hypersensitivity to adalimumab or product excipients.",
+          "Active tuberculosis or other severe infections such as sepsis and opportunistic infections.",
+          "Moderate to severe heart failure (NYHA class III/IV)."
         ],
         "warn": [
-          "Serious/opportunistic infection and TB risk.",
-          "HBV reactivation risk where relevant.",
-          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+          "Serious infections including tuberculosis and opportunistic infections: evaluate promptly and interrupt treatment if a new serious infection or sepsis develops.",
+          "Screen for active and latent tuberculosis before treatment; manage latent TB according to current recommendations.",
+          "Assess hepatitis B status; HBV reactivation has occurred in chronic carriers receiving TNF antagonists.",
+          "Avoid concurrent use with anakinra or abatacept because of increased serious infection risk without added clinical benefit.",
+          "Neurological demyelinating disorders, malignancy/lymphoproliferative disease, haematological reactions, lupus-like syndrome and severe allergic reactions require product-specific consideration.",
+          "Live vaccines should not be given concurrently. Infants exposed in utero require product-specific timing advice for live vaccines."
         ],
         "inter": [
-          "Avoid unapproved combinations of biologic immunosuppressants.",
-          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+          "Do not combine adalimumab with anakinra or abatacept.",
+          "Concomitant methotrexate reduces antibody formation and increases adalimumab exposure compared with monotherapy; no adalimumab dose adjustment is required solely for methotrexate."
         ],
         "preg": [
-          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+          "Women of childbearing potential should consider effective contraception during treatment and for the product-specified period after the last dose.",
+          "Pregnancy and breastfeeding decisions should follow the selected product's section 4.6; placental transfer can affect live-vaccine timing in exposed infants."
         ],
         "ae": [
-          "Infection and injection/infusion reactions are key counselling domains.",
-          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+          "Very common/common effects include infections, injection-site reactions, headache, musculoskeletal pain and laboratory abnormalities.",
+          "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
@@ -5470,6 +5609,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-syringe-high-concentration--36289#4.3",
+        "4.4": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-syringe-high-concentration--36289#4.4",
+        "4.5": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-syringe-high-concentration--36289#4.5",
+        "4.6": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-syringe-high-concentration--36289#4.6",
+        "4.8": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-syringe-high-concentration--36289#4.8"
       }
     },
     {
@@ -5502,24 +5648,29 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
-          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+          "Hypersensitivity to adalimumab or product excipients.",
+          "Active tuberculosis or other severe infections such as sepsis and opportunistic infections.",
+          "Moderate to severe heart failure (NYHA class III/IV)."
         ],
         "warn": [
-          "Serious/opportunistic infection and TB risk.",
-          "HBV reactivation risk where relevant.",
-          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+          "Serious infections including tuberculosis and opportunistic infections: evaluate promptly and interrupt treatment if a new serious infection or sepsis develops.",
+          "Screen for active and latent tuberculosis before treatment; manage latent TB according to current recommendations.",
+          "Assess hepatitis B status; HBV reactivation has occurred in chronic carriers receiving TNF antagonists.",
+          "Avoid concurrent use with anakinra or abatacept because of increased serious infection risk without added clinical benefit.",
+          "Neurological demyelinating disorders, malignancy/lymphoproliferative disease, haematological reactions, lupus-like syndrome and severe allergic reactions require product-specific consideration.",
+          "Live vaccines should not be given concurrently. Infants exposed in utero require product-specific timing advice for live vaccines."
         ],
         "inter": [
-          "Avoid unapproved combinations of biologic immunosuppressants.",
-          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+          "Do not combine adalimumab with anakinra or abatacept.",
+          "Concomitant methotrexate reduces antibody formation and increases adalimumab exposure compared with monotherapy; no adalimumab dose adjustment is required solely for methotrexate."
         ],
         "preg": [
-          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+          "Women of childbearing potential should consider effective contraception during treatment and for the product-specified period after the last dose.",
+          "Pregnancy and breastfeeding decisions should follow the selected product's section 4.6; placental transfer can affect live-vaccine timing in exposed infants."
         ],
         "ae": [
-          "Infection and injection/infusion reactions are key counselling domains.",
-          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+          "Very common/common effects include infections, injection-site reactions, headache, musculoskeletal pain and laboratory abnormalities.",
+          "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
@@ -5561,6 +5712,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.3",
+        "4.4": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.4",
+        "4.5": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.5",
+        "4.6": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.6",
+        "4.8": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.8"
       }
     },
     {
@@ -5593,24 +5751,29 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
-          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+          "Hypersensitivity to adalimumab or product excipients.",
+          "Active tuberculosis or other severe infections such as sepsis and opportunistic infections.",
+          "Moderate to severe heart failure (NYHA class III/IV)."
         ],
         "warn": [
-          "Serious/opportunistic infection and TB risk.",
-          "HBV reactivation risk where relevant.",
-          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+          "Serious infections including tuberculosis and opportunistic infections: evaluate promptly and interrupt treatment if a new serious infection or sepsis develops.",
+          "Screen for active and latent tuberculosis before treatment; manage latent TB according to current recommendations.",
+          "Assess hepatitis B status; HBV reactivation has occurred in chronic carriers receiving TNF antagonists.",
+          "Avoid concurrent use with anakinra or abatacept because of increased serious infection risk without added clinical benefit.",
+          "Neurological demyelinating disorders, malignancy/lymphoproliferative disease, haematological reactions, lupus-like syndrome and severe allergic reactions require product-specific consideration.",
+          "Live vaccines should not be given concurrently. Infants exposed in utero require product-specific timing advice for live vaccines."
         ],
         "inter": [
-          "Avoid unapproved combinations of biologic immunosuppressants.",
-          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+          "Do not combine adalimumab with anakinra or abatacept.",
+          "Concomitant methotrexate reduces antibody formation and increases adalimumab exposure compared with monotherapy; no adalimumab dose adjustment is required solely for methotrexate."
         ],
         "preg": [
-          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+          "Women of childbearing potential should consider effective contraception during treatment and for the product-specified period after the last dose.",
+          "Pregnancy and breastfeeding decisions should follow the selected product's section 4.6; placental transfer can affect live-vaccine timing in exposed infants."
         ],
         "ae": [
-          "Infection and injection/infusion reactions are key counselling domains.",
-          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+          "Very common/common effects include infections, injection-site reactions, headache, musculoskeletal pain and laboratory abnormalities.",
+          "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
@@ -5652,6 +5815,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.3",
+        "4.4": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.4",
+        "4.5": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.5",
+        "4.6": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.6",
+        "4.8": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.8"
       }
     },
     {
@@ -5684,24 +5854,29 @@
           "Pregnancy/family planning"
         ],
         "contra": [
-          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
-          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+          "Hypersensitivity to adalimumab or product excipients.",
+          "Active tuberculosis or other severe infections such as sepsis and opportunistic infections.",
+          "Moderate to severe heart failure (NYHA class III/IV)."
         ],
         "warn": [
-          "Serious/opportunistic infection and TB risk.",
-          "HBV reactivation risk where relevant.",
-          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+          "Serious infections including tuberculosis and opportunistic infections: evaluate promptly and interrupt treatment if a new serious infection or sepsis develops.",
+          "Screen for active and latent tuberculosis before treatment; manage latent TB according to current recommendations.",
+          "Assess hepatitis B status; HBV reactivation has occurred in chronic carriers receiving TNF antagonists.",
+          "Avoid concurrent use with anakinra or abatacept because of increased serious infection risk without added clinical benefit.",
+          "Neurological demyelinating disorders, malignancy/lymphoproliferative disease, haematological reactions, lupus-like syndrome and severe allergic reactions require product-specific consideration.",
+          "Live vaccines should not be given concurrently. Infants exposed in utero require product-specific timing advice for live vaccines."
         ],
         "inter": [
-          "Avoid unapproved combinations of biologic immunosuppressants.",
-          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+          "Do not combine adalimumab with anakinra or abatacept.",
+          "Concomitant methotrexate reduces antibody formation and increases adalimumab exposure compared with monotherapy; no adalimumab dose adjustment is required solely for methotrexate."
         ],
         "preg": [
-          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+          "Women of childbearing potential should consider effective contraception during treatment and for the product-specified period after the last dose.",
+          "Pregnancy and breastfeeding decisions should follow the selected product's section 4.6; placental transfer can affect live-vaccine timing in exposed infants."
         ],
         "ae": [
-          "Infection and injection/infusion reactions are key counselling domains.",
-          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+          "Very common/common effects include infections, injection-site reactions, headache, musculoskeletal pain and laboratory abnormalities.",
+          "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
@@ -5743,6 +5918,13 @@
           "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
           "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
+      },
+      "section_links": {
+        "4.3": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.3",
+        "4.4": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.4",
+        "4.5": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.5",
+        "4.6": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.6",
+        "4.8": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.8"
       }
     }
   ]
