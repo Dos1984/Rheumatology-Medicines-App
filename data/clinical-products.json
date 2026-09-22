@@ -1,9 +1,10 @@
 {
   "meta": {
-    "version": "1.2",
+    "version": "1.3",
     "verified_on": "2026-09-22",
     "scope": "Representative Irish/EU SmPC-derived rheumatology prescribing dataset. Device-specific instructions remain product-specific.",
-    "ui_note": "Exact brand/formulation selection restored. Brand-specific SmPC/EMA provenance is shown; Humira may serve as an explicitly labelled reference only for unextracted adalimumab fields."
+    "ui_note": "Exact brand/formulation selection restored. Brand-specific SmPC/EMA provenance is shown; Humira may serve as an explicitly labelled reference only for unextracted adalimumab fields.",
+    "patient_model": "Patient accordions mirror the csDMARD education structure: purpose, administration, common side effects, stop/hold red flags, monitoring/tests, practical safety advice, and product/resource links."
   },
   "products": [
     {
@@ -50,6 +51,36 @@
         "monitor": [
           "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
           "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Side effects vary by medicine; common effects and practical advice should be reviewed in the selected patient leaflet.",
+          "Stomach upset, headache, rash or fatigue can occur with several conventional DMARDs, but the pattern is medicine-specific."
+        ],
+        "red_flags": [
+          "Contact your team before the next dose for significant infection or a serious/unusual symptom.",
+          "Seek urgent care for severe breathlessness, severe allergic reaction, major bleeding or other severe symptoms.",
+          "Use the medicine-specific patient leaflet for additional stop/hold advice."
+        ],
+        "monitoring": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ],
+        "tests": [
+          "Full blood count (FBC) where required",
+          "Kidney function where required",
+          "Liver function where required",
+          "Medicine-specific monitoring (for example eye screening with hydroxychloroquine)"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -103,6 +134,36 @@
           "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
           "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Side effects vary by medicine; common effects and practical advice should be reviewed in the selected patient leaflet.",
+          "Stomach upset, headache, rash or fatigue can occur with several conventional DMARDs, but the pattern is medicine-specific."
+        ],
+        "red_flags": [
+          "Contact your team before the next dose for significant infection or a serious/unusual symptom.",
+          "Seek urgent care for severe breathlessness, severe allergic reaction, major bleeding or other severe symptoms.",
+          "Use the medicine-specific patient leaflet for additional stop/hold advice."
+        ],
+        "monitoring": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ],
+        "tests": [
+          "Full blood count (FBC) where required",
+          "Kidney function where required",
+          "Liver function where required",
+          "Medicine-specific monitoring (for example eye screening with hydroxychloroquine)"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -154,6 +215,36 @@
           "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
           "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Side effects vary by medicine; common effects and practical advice should be reviewed in the selected patient leaflet.",
+          "Stomach upset, headache, rash or fatigue can occur with several conventional DMARDs, but the pattern is medicine-specific."
+        ],
+        "red_flags": [
+          "Contact your team before the next dose for significant infection or a serious/unusual symptom.",
+          "Seek urgent care for severe breathlessness, severe allergic reaction, major bleeding or other severe symptoms.",
+          "Use the medicine-specific patient leaflet for additional stop/hold advice."
+        ],
+        "monitoring": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ],
+        "tests": [
+          "Full blood count (FBC) where required",
+          "Kidney function where required",
+          "Liver function where required",
+          "Medicine-specific monitoring (for example eye screening with hydroxychloroquine)"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -199,6 +290,36 @@
         "monitor": [
           "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
           "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Side effects vary by medicine; common effects and practical advice should be reviewed in the selected patient leaflet.",
+          "Stomach upset, headache, rash or fatigue can occur with several conventional DMARDs, but the pattern is medicine-specific."
+        ],
+        "red_flags": [
+          "Contact your team before the next dose for significant infection or a serious/unusual symptom.",
+          "Seek urgent care for severe breathlessness, severe allergic reaction, major bleeding or other severe symptoms.",
+          "Use the medicine-specific patient leaflet for additional stop/hold advice."
+        ],
+        "monitoring": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ],
+        "tests": [
+          "Full blood count (FBC) where required",
+          "Kidney function where required",
+          "Liver function where required",
+          "Medicine-specific monitoring (for example eye screening with hydroxychloroquine)"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -246,6 +367,36 @@
           "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
           "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Side effects vary by medicine; common effects and practical advice should be reviewed in the selected patient leaflet.",
+          "Stomach upset, headache, rash or fatigue can occur with several conventional DMARDs, but the pattern is medicine-specific."
+        ],
+        "red_flags": [
+          "Contact your team before the next dose for significant infection or a serious/unusual symptom.",
+          "Seek urgent care for severe breathlessness, severe allergic reaction, major bleeding or other severe symptoms.",
+          "Use the medicine-specific patient leaflet for additional stop/hold advice."
+        ],
+        "monitoring": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ],
+        "tests": [
+          "Full blood count (FBC) where required",
+          "Kidney function where required",
+          "Liver function where required",
+          "Medicine-specific monitoring (for example eye screening with hydroxychloroquine)"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -291,6 +442,36 @@
         "monitor": [
           "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
           "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Side effects vary by medicine; common effects and practical advice should be reviewed in the selected patient leaflet.",
+          "Stomach upset, headache, rash or fatigue can occur with several conventional DMARDs, but the pattern is medicine-specific."
+        ],
+        "red_flags": [
+          "Contact your team before the next dose for significant infection or a serious/unusual symptom.",
+          "Seek urgent care for severe breathlessness, severe allergic reaction, major bleeding or other severe symptoms.",
+          "Use the medicine-specific patient leaflet for additional stop/hold advice."
+        ],
+        "monitoring": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ],
+        "tests": [
+          "Full blood count (FBC) where required",
+          "Kidney function where required",
+          "Liver function where required",
+          "Medicine-specific monitoring (for example eye screening with hydroxychloroquine)"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -338,6 +519,36 @@
           "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
           "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Side effects vary by medicine; common effects and practical advice should be reviewed in the selected patient leaflet.",
+          "Stomach upset, headache, rash or fatigue can occur with several conventional DMARDs, but the pattern is medicine-specific."
+        ],
+        "red_flags": [
+          "Contact your team before the next dose for significant infection or a serious/unusual symptom.",
+          "Seek urgent care for severe breathlessness, severe allergic reaction, major bleeding or other severe symptoms.",
+          "Use the medicine-specific patient leaflet for additional stop/hold advice."
+        ],
+        "monitoring": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ],
+        "tests": [
+          "Full blood count (FBC) where required",
+          "Kidney function where required",
+          "Liver function where required",
+          "Medicine-specific monitoring (for example eye screening with hydroxychloroquine)"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -384,6 +595,36 @@
           "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
           "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Side effects vary by medicine; common effects and practical advice should be reviewed in the selected patient leaflet.",
+          "Stomach upset, headache, rash or fatigue can occur with several conventional DMARDs, but the pattern is medicine-specific."
+        ],
+        "red_flags": [
+          "Contact your team before the next dose for significant infection or a serious/unusual symptom.",
+          "Seek urgent care for severe breathlessness, severe allergic reaction, major bleeding or other severe symptoms.",
+          "Use the medicine-specific patient leaflet for additional stop/hold advice."
+        ],
+        "monitoring": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ],
+        "tests": [
+          "Full blood count (FBC) where required",
+          "Kidney function where required",
+          "Liver function where required",
+          "Medicine-specific monitoring (for example eye screening with hydroxychloroquine)"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -429,6 +670,36 @@
         "monitor": [
           "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
           "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Side effects vary by medicine; common effects and practical advice should be reviewed in the selected patient leaflet.",
+          "Stomach upset, headache, rash or fatigue can occur with several conventional DMARDs, but the pattern is medicine-specific."
+        ],
+        "red_flags": [
+          "Contact your team before the next dose for significant infection or a serious/unusual symptom.",
+          "Seek urgent care for severe breathlessness, severe allergic reaction, major bleeding or other severe symptoms.",
+          "Use the medicine-specific patient leaflet for additional stop/hold advice."
+        ],
+        "monitoring": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ],
+        "tests": [
+          "Full blood count (FBC) where required",
+          "Kidney function where required",
+          "Liver function where required",
+          "Medicine-specific monitoring (for example eye screening with hydroxychloroquine)"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -486,6 +757,39 @@
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -532,6 +836,39 @@
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -580,6 +917,39 @@
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -626,6 +996,39 @@
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -678,6 +1081,39 @@
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -728,6 +1164,39 @@
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -780,6 +1249,39 @@
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -826,6 +1328,39 @@
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -874,6 +1409,39 @@
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -920,6 +1488,39 @@
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -968,6 +1569,39 @@
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -1014,6 +1648,39 @@
         "monitor": [
           "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -1063,6 +1730,38 @@
         "monitor": [
           "FBC, liver tests and lipids at product-specified intervals; renal monitoring where relevant.",
           "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Upper-respiratory infections and other infections can occur.",
+          "Headache, nausea or laboratory changes may occur depending on the medicine.",
+          "Shingles (herpes zoster) is an important recognised infection risk."
+        ],
+        "red_flags": [
+          "Hold treatment and contact your clinical team for a significant infection unless specifically advised otherwise.",
+          "Seek urgent assessment for chest pain, sudden breathlessness, a swollen/painful leg, stroke-like symptoms or another possible blood-clot/cardiovascular event.",
+          "Contact your team for shingles, unusual bruising/bleeding, jaundice or other serious/unusual symptoms."
+        ],
+        "monitoring": [
+          "full blood count (FBC), liver tests and lipids at product-specified intervals; kidney (renal) monitoring where relevant.",
+          "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Lipids/cholesterol",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -1116,6 +1815,38 @@
         "monitor": [
           "FBC, liver tests and lipids at product-specified intervals; renal monitoring where relevant.",
           "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Upper-respiratory infections and other infections can occur.",
+          "Headache, nausea or laboratory changes may occur depending on the medicine.",
+          "Shingles (herpes zoster) is an important recognised infection risk."
+        ],
+        "red_flags": [
+          "Hold treatment and contact your clinical team for a significant infection unless specifically advised otherwise.",
+          "Seek urgent assessment for chest pain, sudden breathlessness, a swollen/painful leg, stroke-like symptoms or another possible blood-clot/cardiovascular event.",
+          "Contact your team for shingles, unusual bruising/bleeding, jaundice or other serious/unusual symptoms."
+        ],
+        "monitoring": [
+          "full blood count (FBC), liver tests and lipids at product-specified intervals; kidney (renal) monitoring where relevant.",
+          "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Lipids/cholesterol",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -1178,6 +1909,38 @@
           "FBC, liver tests and lipids at product-specified intervals; renal monitoring where relevant.",
           "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
         ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Upper-respiratory infections and other infections can occur.",
+          "Headache, nausea or laboratory changes may occur depending on the medicine.",
+          "Shingles (herpes zoster) is an important recognised infection risk."
+        ],
+        "red_flags": [
+          "Hold treatment and contact your clinical team for a significant infection unless specifically advised otherwise.",
+          "Seek urgent assessment for chest pain, sudden breathlessness, a swollen/painful leg, stroke-like symptoms or another possible blood-clot/cardiovascular event.",
+          "Contact your team for shingles, unusual bruising/bleeding, jaundice or other serious/unusual symptoms."
+        ],
+        "monitoring": [
+          "full blood count (FBC), liver tests and lipids at product-specified intervals; kidney (renal) monitoring where relevant.",
+          "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Lipids/cholesterol",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
       }
     },
     {
@@ -1226,6 +1989,38 @@
         "monitor": [
           "FBC, liver tests and lipids at product-specified intervals; renal monitoring where relevant.",
           "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+        ]
+      },
+      "patient": {
+        "common_side_effects": [
+          "Upper-respiratory infections and other infections can occur.",
+          "Headache, nausea or laboratory changes may occur depending on the medicine.",
+          "Shingles (herpes zoster) is an important recognised infection risk."
+        ],
+        "red_flags": [
+          "Hold treatment and contact your clinical team for a significant infection unless specifically advised otherwise.",
+          "Seek urgent assessment for chest pain, sudden breathlessness, a swollen/painful leg, stroke-like symptoms or another possible blood-clot/cardiovascular event.",
+          "Contact your team for shingles, unusual bruising/bleeding, jaundice or other serious/unusual symptoms."
+        ],
+        "monitoring": [
+          "full blood count (FBC), liver tests and lipids at product-specified intervals; kidney (renal) monitoring where relevant.",
+          "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Lipids/cholesterol",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
         ]
       }
     },
@@ -1283,7 +2078,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/23536/etanercept-information-booklet-april2021.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1339,7 +2167,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/23536/etanercept-information-booklet-april2021.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1395,7 +2256,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/23536/etanercept-information-booklet-april2021.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1451,7 +2345,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1507,7 +2434,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1563,7 +2523,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1619,7 +2612,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1667,7 +2693,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1723,7 +2782,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1779,7 +2871,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1835,7 +2960,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1891,7 +3049,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1943,7 +3134,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -1995,7 +3219,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2047,7 +3304,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2099,7 +3389,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2151,7 +3474,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2203,7 +3559,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2255,7 +3644,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2303,7 +3725,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2355,7 +3810,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2403,7 +3891,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2455,7 +3976,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2503,7 +4057,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2555,7 +4142,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2603,7 +4223,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2651,7 +4304,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2699,7 +4385,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance"
+      "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2747,7 +4466,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2795,7 +4547,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2843,7 +4628,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2891,7 +4709,40 @@
           "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
         ]
       },
-      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained"
+      "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -2949,7 +4800,40 @@
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
       "source_type": "IE SmPC",
-      "market_status": "current"
+      "market_status": "current",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/24662/adalimumab-information-booklet-2022.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -3007,7 +4891,40 @@
       },
       "brand_verification": "IE listing / product SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
       "source_type": "IE listing / product SmPC",
-      "market_status": "current presentation; older low-concentration pen/syringe discontinued"
+      "market_status": "current presentation; older low-concentration pen/syringe discontinued",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/24662/adalimumab-information-booklet-2022.pdf",
+        "manufacturer_url": "https://www.amgen.ie/about-amgen/our-medicines",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -3065,7 +4982,40 @@
       },
       "brand_verification": "EMA SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
       "source_type": "EMA SmPC",
-      "market_status": "HPRA-authorised; EMA product information"
+      "market_status": "HPRA-authorised; EMA product information",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/24662/adalimumab-information-booklet-2022.pdf",
+        "manufacturer_url": "https://www.viatris.ie/en-ie/products/product-details",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -3123,7 +5073,40 @@
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
       "source_type": "IE SmPC",
-      "market_status": "current"
+      "market_status": "current",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/24662/adalimumab-information-booklet-2022.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -3181,7 +5164,40 @@
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
       "source_type": "IE SmPC",
-      "market_status": "current"
+      "market_status": "current",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/24662/adalimumab-information-booklet-2022.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -3239,7 +5255,40 @@
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
       "source_type": "IE SmPC",
-      "market_status": "current"
+      "market_status": "current",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/24662/adalimumab-information-booklet-2022.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -3297,7 +5346,40 @@
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
       "source_type": "IE SmPC",
-      "market_status": "current"
+      "market_status": "current",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/24662/adalimumab-information-booklet-2022.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -3355,7 +5437,40 @@
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
       "source_type": "IE SmPC",
-      "market_status": "current"
+      "market_status": "current",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/24662/adalimumab-information-booklet-2022.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -3413,7 +5528,40 @@
       },
       "brand_verification": "EMA SmPC via medicines.ie; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
       "source_type": "EMA SmPC via medicines.ie",
-      "market_status": "EMA-linked"
+      "market_status": "EMA-linked",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/24662/adalimumab-information-booklet-2022.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -3471,7 +5619,40 @@
       },
       "brand_verification": "EMA SmPC via medicines.ie; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
       "source_type": "EMA SmPC via medicines.ie",
-      "market_status": "EMA-linked"
+      "market_status": "EMA-linked",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/24662/adalimumab-information-booklet-2022.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     },
     {
       "c": "bDMARD",
@@ -3529,7 +5710,40 @@
       },
       "brand_verification": "EMA SmPC via medicines.ie; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
       "source_type": "EMA SmPC via medicines.ie",
-      "market_status": "EMA-linked"
+      "market_status": "EMA-linked",
+      "patient": {
+        "common_side_effects": [
+          "Injection-site reaction: redness, swelling, itching or discomfort can occur with subcutaneous products.",
+          "Mild infections such as colds/upper-respiratory infections can occur.",
+          "Headache, rash or other product-specific effects may occur; check the patient leaflet for the selected brand."
+        ],
+        "red_flags": [
+          "Do not take the next dose and contact your rheumatology/medical team if you have a significant infection, fever or are prescribed antibiotics, unless your team has advised otherwise.",
+          "Seek urgent medical attention for severe breathlessness, facial/throat swelling or another severe allergic reaction.",
+          "Contact your team promptly for unusual bruising/bleeding, persistent neurological symptoms, jaundice or other serious/unusual symptoms.",
+          "Before surgery or a live vaccine, check the plan with your rheumatology team."
+        ],
+        "monitoring": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic full blood count (FBC)/kidney (renal)/liver function (LFT)/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ],
+        "tests": [
+          "Full blood count (FBC)",
+          "Kidney function",
+          "Liver function",
+          "Inflammation/disease activity as clinically appropriate",
+          "Additional drug-specific tests where required"
+        ],
+        "booklet_url": "https://www.versusarthritis.org/media/24662/adalimumab-information-booklet-2022.pdf",
+        "manufacturer_url": "",
+        "device_video_url": "",
+        "advice": [
+          "Keep vaccinations up to date as advised by your clinical team.",
+          "Tell healthcare professionals which immune-modifying medicine you take.",
+          "Discuss pregnancy, breastfeeding or family planning with your rheumatology team.",
+          "Do not stop or restart long-term treatment without an agreed plan, except where urgent safety advice tells you to hold a dose."
+        ]
+      }
     }
   ]
 }
