@@ -1,11 +1,13 @@
 {
   "meta": {
-    "version": "1.4.1",
+    "version": "1.5",
     "verified_on": "2026-09-22",
     "scope": "Representative Irish/EU SmPC-derived rheumatology prescribing dataset. Device-specific instructions remain product-specific.",
     "ui_note": "Exact brand/formulation selection restored. Brand-specific SmPC/EMA provenance is shown; Humira may serve as an explicitly labelled reference only for unextracted adalimumab fields.",
     "patient_model": "Patient accordions mirror the csDMARD education structure: purpose, administration, common side effects, stop/hold red flags, monitoring/tests, practical safety advice, and product/resource links.",
-    "clinician_rule": "Clinician accordions contain in-app section summaries. External SmPC links are supplemental provenance/deep links, not instructions to look up missing core information."
+    "clinician_rule": "Clinician accordions contain in-app section summaries. External SmPC links are supplemental provenance/deep links, not instructions to look up missing core information.",
+    "source_hierarchy": "Exact medicines.ie product SmPC first; if unavailable, exact HPRA product/SmPC; if unavailable or HPRA routes centrally authorised documentation to EMA, exact EMA product information/SmPC. Never substitute an active-ingredient landing page as product provenance.",
+    "source_audit_status": "Source hierarchy implemented; exact-brand provenance audit is ongoing and unresolved entries must be labelled rather than silently substituted."
   },
   "products": [
     {
@@ -4896,18 +4898,20 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc#4.3",
-        "4.4": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc#4.4",
-        "4.5": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc#4.5",
-        "4.6": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc#4.6",
-        "4.8": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc#4.8"
+        "4.1": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc",
+        "4.2": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc",
+        "4.3": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc",
+        "4.4": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc",
+        "4.5": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc",
+        "4.6": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc",
+        "4.8": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384/spc"
       }
     },
     {
       "c": "bDMARD",
       "d": "Adalimumab",
       "b": "AMGEVITA high-concentration pen/syringe",
-      "src": "https://www.medicines.ie/active-ingredients/adalimumab-24268",
+      "src": "https://www.ema.europa.eu/en/medicines/human/EPAR/amgevita",
       "rev": "current listing",
       "i": {
         "Rheumatoid arthritis": {
@@ -4963,7 +4967,7 @@
         ]
       },
       "brand_verification": "IE listing / product SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
-      "source_type": "IE listing / product SmPC",
+      "source_type": "EMA product information / SmPC",
       "market_status": "current presentation; older low-concentration pen/syringe discontinued",
       "patient": {
         "common_side_effects": [
@@ -4999,11 +5003,13 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.3",
-        "4.4": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.4",
-        "4.5": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.5",
-        "4.6": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.6",
-        "4.8": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.8"
+        "4.1": "https://www.ema.europa.eu/en/medicines/human/EPAR/amgevita",
+        "4.2": "https://www.ema.europa.eu/en/medicines/human/EPAR/amgevita",
+        "4.3": "https://www.ema.europa.eu/en/medicines/human/EPAR/amgevita",
+        "4.4": "https://www.ema.europa.eu/en/medicines/human/EPAR/amgevita",
+        "4.5": "https://www.ema.europa.eu/en/medicines/human/EPAR/amgevita",
+        "4.6": "https://www.ema.europa.eu/en/medicines/human/EPAR/amgevita",
+        "4.8": "https://www.ema.europa.eu/en/medicines/human/EPAR/amgevita"
       }
     },
     {
@@ -5066,7 +5072,7 @@
         ]
       },
       "brand_verification": "EMA SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
-      "source_type": "EMA SmPC",
+      "source_type": "EMA product information / SmPC",
       "market_status": "HPRA-authorised; EMA product information",
       "patient": {
         "common_side_effects": [
@@ -5102,11 +5108,13 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio#4.3",
-        "4.4": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio#4.4",
-        "4.5": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio#4.5",
-        "4.6": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio#4.6",
-        "4.8": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio#4.8"
+        "4.1": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio",
+        "4.2": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio",
+        "4.3": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio",
+        "4.4": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio",
+        "4.5": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio",
+        "4.6": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio",
+        "4.8": "https://www.ema.europa.eu/en/medicines/human/EPAR/hulio"
       }
     },
     {
@@ -5169,7 +5177,7 @@
         ]
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
-      "source_type": "IE SmPC",
+      "source_type": "medicines.ie exact product SmPC",
       "market_status": "current",
       "patient": {
         "common_side_effects": [
@@ -5205,11 +5213,13 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244#4.3",
-        "4.4": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244#4.4",
-        "4.5": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244#4.5",
-        "4.6": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244#4.6",
-        "4.8": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244#4.8"
+        "4.1": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244",
+        "4.2": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244",
+        "4.3": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244",
+        "4.4": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244",
+        "4.5": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244",
+        "4.6": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244",
+        "4.8": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-pen-auto-injector--35244"
       }
     },
     {
@@ -5308,11 +5318,13 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696#4.3",
-        "4.4": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696#4.4",
-        "4.5": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696#4.5",
-        "4.6": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696#4.6",
-        "4.8": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696#4.8"
+        "4.1": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696",
+        "4.2": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696",
+        "4.3": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696",
+        "4.4": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696",
+        "4.5": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696",
+        "4.6": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696",
+        "4.8": "https://www.medicines.ie/medicines/idacio-40-mg-solution-for-injection-in-pre-filled-syringe-36696"
       }
     },
     {
@@ -5375,7 +5387,7 @@
         ]
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
-      "source_type": "IE SmPC",
+      "source_type": "medicines.ie exact product SmPC",
       "market_status": "current",
       "patient": {
         "common_side_effects": [
@@ -5411,11 +5423,13 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc#4.3",
-        "4.4": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc#4.4",
-        "4.5": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc#4.5",
-        "4.6": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc#4.6",
-        "4.8": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc#4.8"
+        "4.1": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc",
+        "4.2": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc",
+        "4.3": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc",
+        "4.4": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc",
+        "4.5": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc",
+        "4.6": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc",
+        "4.8": "https://www.medicines.ie/medicines/imraldi-40mg-solution-for-injection-in-pre-filled-pen-34656/spc"
       }
     },
     {
@@ -5514,18 +5528,20 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc#4.3",
-        "4.4": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc#4.4",
-        "4.5": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc#4.5",
-        "4.6": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc#4.6",
-        "4.8": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc#4.8"
+        "4.1": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc",
+        "4.2": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc",
+        "4.3": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc",
+        "4.4": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc",
+        "4.5": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc",
+        "4.6": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc",
+        "4.8": "https://www.medicines.ie/medicines/imraldi-40-mg-solution-for-injection-in-pre-filled-syringe-34657/spc"
       }
     },
     {
       "c": "bDMARD",
       "d": "Adalimumab",
       "b": "YUFLYMA high-concentration pen/syringe",
-      "src": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-syringe-high-concentration--36289",
+      "src": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-36289",
       "rev": "16/04/2026",
       "i": {
         "Rheumatoid arthritis": {
@@ -5581,7 +5597,7 @@
         ]
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
-      "source_type": "IE SmPC",
+      "source_type": "medicines.ie exact product SmPC",
       "market_status": "current",
       "patient": {
         "common_side_effects": [
@@ -5617,18 +5633,20 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-syringe-high-concentration--36289#4.3",
-        "4.4": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-syringe-high-concentration--36289#4.4",
-        "4.5": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-syringe-high-concentration--36289#4.5",
-        "4.6": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-syringe-high-concentration--36289#4.6",
-        "4.8": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-syringe-high-concentration--36289#4.8"
+        "4.1": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-36289",
+        "4.2": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-36289",
+        "4.3": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-36289",
+        "4.4": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-36289",
+        "4.5": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-36289",
+        "4.6": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-36289",
+        "4.8": "https://www.medicines.ie/medicines/yuflyma-pre-filled-pen-36289"
       }
     },
     {
       "c": "bDMARD",
       "d": "Adalimumab",
       "b": "Hukyndra",
-      "src": "https://www.medicines.ie/active-ingredients/adalimumab-24268",
+      "src": "https://www.ema.europa.eu/en/medicines/human/EPAR/hukyndra",
       "rev": "EMA-linked",
       "i": {
         "Rheumatoid arthritis": {
@@ -5684,7 +5702,7 @@
         ]
       },
       "brand_verification": "EMA SmPC via medicines.ie; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
-      "source_type": "EMA SmPC via medicines.ie",
+      "source_type": "EMA product information / SmPC",
       "market_status": "EMA-linked",
       "patient": {
         "common_side_effects": [
@@ -5720,18 +5738,20 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.3",
-        "4.4": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.4",
-        "4.5": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.5",
-        "4.6": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.6",
-        "4.8": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.8"
+        "4.1": "https://www.ema.europa.eu/en/medicines/human/EPAR/hukyndra",
+        "4.2": "https://www.ema.europa.eu/en/medicines/human/EPAR/hukyndra",
+        "4.3": "https://www.ema.europa.eu/en/medicines/human/EPAR/hukyndra",
+        "4.4": "https://www.ema.europa.eu/en/medicines/human/EPAR/hukyndra",
+        "4.5": "https://www.ema.europa.eu/en/medicines/human/EPAR/hukyndra",
+        "4.6": "https://www.ema.europa.eu/en/medicines/human/EPAR/hukyndra",
+        "4.8": "https://www.ema.europa.eu/en/medicines/human/EPAR/hukyndra"
       }
     },
     {
       "c": "bDMARD",
       "d": "Adalimumab",
       "b": "Hefiya",
-      "src": "https://www.medicines.ie/active-ingredients/adalimumab-24268",
+      "src": "https://www.ema.europa.eu/en/medicines/human/EPAR/hefiya",
       "rev": "EMA-linked",
       "i": {
         "Rheumatoid arthritis": {
@@ -5787,7 +5807,7 @@
         ]
       },
       "brand_verification": "EMA SmPC via medicines.ie; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
-      "source_type": "EMA SmPC via medicines.ie",
+      "source_type": "EMA product information / SmPC",
       "market_status": "EMA-linked",
       "patient": {
         "common_side_effects": [
@@ -5823,18 +5843,20 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.3",
-        "4.4": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.4",
-        "4.5": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.5",
-        "4.6": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.6",
-        "4.8": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.8"
+        "4.1": "https://www.ema.europa.eu/en/medicines/human/EPAR/hefiya",
+        "4.2": "https://www.ema.europa.eu/en/medicines/human/EPAR/hefiya",
+        "4.3": "https://www.ema.europa.eu/en/medicines/human/EPAR/hefiya",
+        "4.4": "https://www.ema.europa.eu/en/medicines/human/EPAR/hefiya",
+        "4.5": "https://www.ema.europa.eu/en/medicines/human/EPAR/hefiya",
+        "4.6": "https://www.ema.europa.eu/en/medicines/human/EPAR/hefiya",
+        "4.8": "https://www.ema.europa.eu/en/medicines/human/EPAR/hefiya"
       }
     },
     {
       "c": "bDMARD",
       "d": "Adalimumab",
       "b": "Libmyris",
-      "src": "https://www.medicines.ie/active-ingredients/adalimumab-24268",
+      "src": "https://www.ema.europa.eu/en/medicines/human/EPAR/libmyris",
       "rev": "EMA-linked",
       "i": {
         "Rheumatoid arthritis": {
@@ -5890,7 +5912,7 @@
         ]
       },
       "brand_verification": "EMA SmPC via medicines.ie; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
-      "source_type": "EMA SmPC via medicines.ie",
+      "source_type": "EMA product information / SmPC",
       "market_status": "EMA-linked",
       "patient": {
         "common_side_effects": [
@@ -5926,11 +5948,13 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.3",
-        "4.4": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.4",
-        "4.5": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.5",
-        "4.6": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.6",
-        "4.8": "https://www.medicines.ie/active-ingredients/adalimumab-24268#4.8"
+        "4.1": "https://www.ema.europa.eu/en/medicines/human/EPAR/libmyris",
+        "4.2": "https://www.ema.europa.eu/en/medicines/human/EPAR/libmyris",
+        "4.3": "https://www.ema.europa.eu/en/medicines/human/EPAR/libmyris",
+        "4.4": "https://www.ema.europa.eu/en/medicines/human/EPAR/libmyris",
+        "4.5": "https://www.ema.europa.eu/en/medicines/human/EPAR/libmyris",
+        "4.6": "https://www.ema.europa.eu/en/medicines/human/EPAR/libmyris",
+        "4.8": "https://www.ema.europa.eu/en/medicines/human/EPAR/libmyris"
       }
     }
   ]
