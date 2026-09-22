@@ -1,0 +1,1601 @@
+{
+  "meta": {
+    "version": "1.0",
+    "verified_on": "2026-09-22",
+    "scope": "Representative Irish/EU SmPC-derived rheumatology prescribing dataset. Device-specific instructions remain product-specific."
+  },
+  "products": [
+    {
+      "c": "csDMARD",
+      "d": "Methotrexate",
+      "b": "ADVANZ 2.5 mg tablets",
+      "src": "https://www.medicines.ie/medicines/methotrexate-2-5-mg-tablets-34745",
+      "rev": "14/09/2026",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "Oral once weekly; exact initiation/titration depends on selected product. Do not prescribe daily.",
+          "route": "Oral",
+          "response": "Usually several weeks"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC",
+          "Renal function/eGFR",
+          "ALT/AST and albumin",
+          "HBV/HCV; HIV according to current guidance/risk",
+          "Pregnancy/family-planning assessment where relevant",
+          "Vaccination review"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications from the selected SmPC.",
+          "Check hepatic/renal impairment, cytopenia and infection risks specific to the medicine."
+        ],
+        "warn": [
+          "Review section 4.4 warnings before initiation and after clinically significant changes.",
+          "Assess infection, liver, lung and pregnancy risks as applicable."
+        ],
+        "inter": [
+          "Medication reconciliation including OTC/herbal products.",
+          "Apply section 4.5 interactions for the selected medicine."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy, fertility and breastfeeding advice."
+        ],
+        "ae": [
+          "Counsel on common adverse effects and medicine-specific serious red flags.",
+          "Escalate significant infection, cytopenia, hepatic injury or organ-specific toxicity as applicable."
+        ],
+        "monitor": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      }
+    },
+    {
+      "c": "csDMARD",
+      "d": "Methotrexate",
+      "b": "Metoject SC representative",
+      "src": "https://www.medicines.ie/",
+      "rev": "representative current product",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "7.5 mg SC once weekly; increase gradually by 2.5 mg/week; generally max 25 mg/week; exceptional upper limit 30 mg/week where clinically justified.",
+          "route": "SC",
+          "response": "~4–8 weeks"
+        },
+        "Psoriatic arthritis": {
+          "dose": "Test dose 5–10 mg parenterally one week before initiation; then 7.5 mg SC weekly, gradual increase; generally max 25 mg/week; exceptional upper limit 30 mg/week.",
+          "route": "SC",
+          "response": "~2–6 weeks"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC",
+          "Renal function/eGFR",
+          "ALT/AST and albumin",
+          "HBV/HCV; HIV according to current guidance/risk",
+          "Pregnancy/family-planning assessment where relevant",
+          "Vaccination review"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications from the selected SmPC.",
+          "Check hepatic/renal impairment, cytopenia and infection risks specific to the medicine."
+        ],
+        "warn": [
+          "Review section 4.4 warnings before initiation and after clinically significant changes.",
+          "Assess infection, liver, lung and pregnancy risks as applicable."
+        ],
+        "inter": [
+          "Medication reconciliation including OTC/herbal products.",
+          "Apply section 4.5 interactions for the selected medicine."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy, fertility and breastfeeding advice."
+        ],
+        "ae": [
+          "Counsel on common adverse effects and medicine-specific serious red flags.",
+          "Escalate significant infection, cytopenia, hepatic injury or organ-specific toxicity as applicable."
+        ],
+        "monitor": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      }
+    },
+    {
+      "c": "csDMARD",
+      "d": "Leflunomide",
+      "b": "Arava 20 mg representative",
+      "src": "https://www.medicines.ie/medicines/arava-20-mg-film-coated-tablets-31308",
+      "rev": "24/07/2026",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "Loading 100 mg once daily for 3 days, then 10–20 mg once daily.",
+          "route": "Oral",
+          "response": "Therapeutic effect usually begins after 4–6 weeks and may improve further for 4–6 months."
+        },
+        "Psoriatic arthritis": {
+          "dose": "Loading 100 mg once daily for 3 days, then 20 mg once daily.",
+          "route": "Oral"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC",
+          "Renal function/eGFR",
+          "ALT/AST and albumin",
+          "HBV/HCV; HIV according to current guidance/risk",
+          "Pregnancy/family-planning assessment where relevant",
+          "Vaccination review"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications from the selected SmPC.",
+          "Check hepatic/renal impairment, cytopenia and infection risks specific to the medicine."
+        ],
+        "warn": [
+          "Review section 4.4 warnings before initiation and after clinically significant changes.",
+          "Assess infection, liver, lung and pregnancy risks as applicable."
+        ],
+        "inter": [
+          "Medication reconciliation including OTC/herbal products.",
+          "Apply section 4.5 interactions for the selected medicine."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy, fertility and breastfeeding advice."
+        ],
+        "ae": [
+          "Counsel on common adverse effects and medicine-specific serious red flags.",
+          "Escalate significant infection, cytopenia, hepatic injury or organ-specific toxicity as applicable."
+        ],
+        "monitor": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      }
+    },
+    {
+      "c": "csDMARD",
+      "d": "Sulfasalazine",
+      "b": "Salazopyrin representative",
+      "src": "https://www.medicines.ie/medicines/salazopyrin-tablets-33670/spc",
+      "rev": "16/10/2024",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "Adult RA dosing is titrated gradually; use the selected gastro-resistant/tablet product regimen and tolerability schedule.",
+          "route": "Oral"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC",
+          "Renal function/eGFR",
+          "ALT/AST and albumin",
+          "HBV/HCV; HIV according to current guidance/risk",
+          "Pregnancy/family-planning assessment where relevant",
+          "Vaccination review"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications from the selected SmPC.",
+          "Check hepatic/renal impairment, cytopenia and infection risks specific to the medicine."
+        ],
+        "warn": [
+          "Review section 4.4 warnings before initiation and after clinically significant changes.",
+          "Assess infection, liver, lung and pregnancy risks as applicable."
+        ],
+        "inter": [
+          "Medication reconciliation including OTC/herbal products.",
+          "Apply section 4.5 interactions for the selected medicine."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy, fertility and breastfeeding advice."
+        ],
+        "ae": [
+          "Counsel on common adverse effects and medicine-specific serious red flags.",
+          "Escalate significant infection, cytopenia, hepatic injury or organ-specific toxicity as applicable."
+        ],
+        "monitor": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      }
+    },
+    {
+      "c": "csDMARD",
+      "d": "Hydroxychloroquine",
+      "b": "Plaquenil 200 mg",
+      "src": "https://www.medicines.ie/medicines/plaquenil-tablets-33380/spc",
+      "rev": "13/04/2026",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "Use the lowest effective dose; dose should respect current retinal-toxicity/weight-based safety guidance and selected SmPC.",
+          "route": "Oral"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC",
+          "Renal function/eGFR",
+          "ALT/AST and albumin",
+          "HBV/HCV; HIV according to current guidance/risk",
+          "Pregnancy/family-planning assessment where relevant",
+          "Vaccination review"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications from the selected SmPC.",
+          "Check hepatic/renal impairment, cytopenia and infection risks specific to the medicine."
+        ],
+        "warn": [
+          "Review section 4.4 warnings before initiation and after clinically significant changes.",
+          "Assess infection, liver, lung and pregnancy risks as applicable."
+        ],
+        "inter": [
+          "Medication reconciliation including OTC/herbal products.",
+          "Apply section 4.5 interactions for the selected medicine."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy, fertility and breastfeeding advice."
+        ],
+        "ae": [
+          "Counsel on common adverse effects and medicine-specific serious red flags.",
+          "Escalate significant infection, cytopenia, hepatic injury or organ-specific toxicity as applicable."
+        ],
+        "monitor": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      }
+    },
+    {
+      "c": "csDMARD",
+      "d": "Azathioprine",
+      "b": "Imuran representative",
+      "src": "https://www.medicines.ie/medicines/imuran-tablets-25mg-32446",
+      "rev": "05/01/2026",
+      "i": {
+        "Specialist rheumatology use": {
+          "dose": "Dose is indication-, weight-, TPMT/NUDT15- and tolerance-dependent; specialist use.",
+          "route": "Oral"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC",
+          "Renal function/eGFR",
+          "ALT/AST and albumin",
+          "HBV/HCV; HIV according to current guidance/risk",
+          "Pregnancy/family-planning assessment where relevant",
+          "Vaccination review"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications from the selected SmPC.",
+          "Check hepatic/renal impairment, cytopenia and infection risks specific to the medicine."
+        ],
+        "warn": [
+          "Review section 4.4 warnings before initiation and after clinically significant changes.",
+          "Assess infection, liver, lung and pregnancy risks as applicable."
+        ],
+        "inter": [
+          "Medication reconciliation including OTC/herbal products.",
+          "Apply section 4.5 interactions for the selected medicine."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy, fertility and breastfeeding advice."
+        ],
+        "ae": [
+          "Counsel on common adverse effects and medicine-specific serious red flags.",
+          "Escalate significant infection, cytopenia, hepatic injury or organ-specific toxicity as applicable."
+        ],
+        "monitor": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      }
+    },
+    {
+      "c": "csDMARD",
+      "d": "Mycophenolate mofetil",
+      "b": "CellCept 500 mg representative",
+      "src": "https://www.medicines.ie/medicines/cellcept-500mg-film-coated-tablets-31588/spc",
+      "rev": "01/04/2026",
+      "i": {
+        "Specialist rheumatology use": {
+          "dose": "Rheumatology use is generally specialist/off-label; transplant SmPC dosing must not be presented as a rheumatology regimen.",
+          "route": "Oral"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC",
+          "Renal function/eGFR",
+          "ALT/AST and albumin",
+          "HBV/HCV; HIV according to current guidance/risk",
+          "Pregnancy/family-planning assessment where relevant",
+          "Vaccination review"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications from the selected SmPC.",
+          "Check hepatic/renal impairment, cytopenia and infection risks specific to the medicine."
+        ],
+        "warn": [
+          "Review section 4.4 warnings before initiation and after clinically significant changes.",
+          "Assess infection, liver, lung and pregnancy risks as applicable."
+        ],
+        "inter": [
+          "Medication reconciliation including OTC/herbal products.",
+          "Apply section 4.5 interactions for the selected medicine."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy, fertility and breastfeeding advice."
+        ],
+        "ae": [
+          "Counsel on common adverse effects and medicine-specific serious red flags.",
+          "Escalate significant infection, cytopenia, hepatic injury or organ-specific toxicity as applicable."
+        ],
+        "monitor": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      }
+    },
+    {
+      "c": "csDMARD",
+      "d": "Mycophenolic acid",
+      "b": "Myfortic 360 mg representative",
+      "src": "https://www.medicines.ie/medicines/myfortic-360-mg-gastro-resistant-tablets-32968/spc",
+      "rev": "29/07/2026",
+      "i": {
+        "Specialist rheumatology use": {
+          "dose": "Rheumatology use is generally specialist/off-label; transplant SmPC dosing must not be presented as a rheumatology regimen.",
+          "route": "Oral"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC",
+          "Renal function/eGFR",
+          "ALT/AST and albumin",
+          "HBV/HCV; HIV according to current guidance/risk",
+          "Pregnancy/family-planning assessment where relevant",
+          "Vaccination review"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications from the selected SmPC.",
+          "Check hepatic/renal impairment, cytopenia and infection risks specific to the medicine."
+        ],
+        "warn": [
+          "Review section 4.4 warnings before initiation and after clinically significant changes.",
+          "Assess infection, liver, lung and pregnancy risks as applicable."
+        ],
+        "inter": [
+          "Medication reconciliation including OTC/herbal products.",
+          "Apply section 4.5 interactions for the selected medicine."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy, fertility and breastfeeding advice."
+        ],
+        "ae": [
+          "Counsel on common adverse effects and medicine-specific serious red flags.",
+          "Escalate significant infection, cytopenia, hepatic injury or organ-specific toxicity as applicable."
+        ],
+        "monitor": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      }
+    },
+    {
+      "c": "csDMARD",
+      "d": "Ciclosporin",
+      "b": "Neoral representative",
+      "src": "https://www.medicines.ie/medicines/neoral-25mg-soft-capsules-33002/spc",
+      "rev": "22/04/2026",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "2.5 mg/kg/day orally in 2 divided doses initially; may be increased gradually according to response/tolerability within SmPC limits.",
+          "route": "Oral"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC",
+          "Renal function/eGFR",
+          "ALT/AST and albumin",
+          "HBV/HCV; HIV according to current guidance/risk",
+          "Pregnancy/family-planning assessment where relevant",
+          "Vaccination review"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications from the selected SmPC.",
+          "Check hepatic/renal impairment, cytopenia and infection risks specific to the medicine."
+        ],
+        "warn": [
+          "Review section 4.4 warnings before initiation and after clinically significant changes.",
+          "Assess infection, liver, lung and pregnancy risks as applicable."
+        ],
+        "inter": [
+          "Medication reconciliation including OTC/herbal products.",
+          "Apply section 4.5 interactions for the selected medicine."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy, fertility and breastfeeding advice."
+        ],
+        "ae": [
+          "Counsel on common adverse effects and medicine-specific serious red flags.",
+          "Escalate significant infection, cytopenia, hepatic injury or organ-specific toxicity as applicable."
+        ],
+        "monitor": [
+          "Monitoring frequency depends on medicine, dose, treatment phase, comorbidity and concomitant therapy.",
+          "For csDMARDs use current BSR/local monitoring schedules in addition to SmPC requirements."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Adalimumab",
+      "b": "Humira representative",
+      "src": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384",
+      "rev": "17/10/2025",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "40 mg SC every other week. With MTX where appropriate. In relevant monotherapy patients with decreased response, 40 mg weekly or 80 mg every other week may provide additional benefit.",
+          "route": "SC"
+        },
+        "Psoriatic arthritis": {
+          "dose": "40 mg SC every other week.",
+          "route": "SC"
+        },
+        "Axial spondyloarthritis": {
+          "dose": "40 mg SC every other week.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Etanercept",
+      "b": "Benepali representative",
+      "src": "https://www.medicines.ie/medicines/benepali-25mg-solution-for-injection-in-pre-filled-syringe-31408/spc",
+      "rev": "05/12/2025",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "25 mg SC twice weekly or 50 mg SC once weekly.",
+          "route": "SC"
+        },
+        "Psoriatic arthritis": {
+          "dose": "25 mg SC twice weekly or 50 mg SC once weekly.",
+          "route": "SC"
+        },
+        "Axial spondyloarthritis": {
+          "dose": "25 mg SC twice weekly or 50 mg SC once weekly.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Infliximab",
+      "b": "Remicade IV representative",
+      "src": "https://www.medicines.ie/medicines/remicade-powder-for-solution-for-infusion-33550",
+      "rev": "02/12/2025",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "3 mg/kg IV at weeks 0, 2 and 6, then every 8 weeks; given with methotrexate. In inadequate/lost response, SmPC permits dose/frequency intensification.",
+          "route": "IV"
+        },
+        "Psoriatic arthritis": {
+          "dose": "5 mg/kg IV at weeks 0, 2 and 6, then every 8 weeks.",
+          "route": "IV"
+        },
+        "Ankylosing spondylitis": {
+          "dose": "5 mg/kg IV at weeks 0, 2 and 6, then every 6–8 weeks.",
+          "route": "IV"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Certolizumab pegol",
+      "b": "Cimzia representative",
+      "src": "https://www.medicines.ie/medicines/cimzia-200-mg-solution-for-injection-in-pre-filled-syringe-31632",
+      "rev": "20/04/2026",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "400 mg SC at weeks 0, 2 and 4, then 200 mg every 2 weeks; after response, 400 mg every 4 weeks may be considered.",
+          "route": "SC",
+          "response": "Reconsider if no benefit by 12 weeks"
+        },
+        "Psoriatic arthritis": {
+          "dose": "400 mg SC at weeks 0, 2 and 4, then 200 mg every 2 weeks; after response, 400 mg every 4 weeks may be considered.",
+          "route": "SC"
+        },
+        "Axial spondyloarthritis": {
+          "dose": "400 mg SC at weeks 0, 2 and 4, then 200 mg every 2 weeks or 400 mg every 4 weeks.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Golimumab",
+      "b": "Simponi representative",
+      "src": "https://www.medicines.ie/active-ingredients/golimumab-24789",
+      "rev": "current listing",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "50 mg SC once monthly, on the same date each month, with methotrexate; weight/response-specific considerations apply.",
+          "route": "SC"
+        },
+        "Psoriatic arthritis": {
+          "dose": "50 mg SC once monthly; weight/response-specific considerations apply.",
+          "route": "SC"
+        },
+        "Axial spondyloarthritis": {
+          "dose": "50 mg SC once monthly; weight/response-specific considerations apply.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Abatacept",
+      "b": "Orencia 125 mg SC representative",
+      "src": "https://www.medicines.ie/medicines/orencia-125-mg-solution-for-injection-in-pre-filled-pen-33240",
+      "rev": "12/06/2026",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "125 mg SC once weekly. May be initiated with or without an IV loading dose according to SmPC.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Rituximab",
+      "b": "MabThera IV representative",
+      "src": "https://www.medicines.ie/active-ingredients/rituximab-25270",
+      "rev": "current listing",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "One course = two 1000 mg IV infusions separated by 2 weeks; retreatment based on clinical evaluation and SmPC criteria. Use with methotrexate.",
+          "route": "IV"
+        },
+        "ANCA-associated vasculitis": {
+          "dose": "Indication-specific induction/maintenance regimens differ; use exact selected rituximab SmPC and protocol.",
+          "route": "IV"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Tocilizumab",
+      "b": "RoActemra SC representative",
+      "src": "https://www.medicines.ie/medicines/roactemra-162-mg-solution-for-injection-in-pre-filled-pen-33646/spc",
+      "rev": "26/03/2026",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "162 mg SC once weekly.",
+          "route": "SC"
+        },
+        "Giant cell arteritis": {
+          "dose": "162 mg SC once weekly with a tapering glucocorticoid course; may continue alone after glucocorticoid discontinuation. Not monotherapy for acute relapse.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Sarilumab",
+      "b": "Kevzara representative",
+      "src": "https://www.ema.europa.eu/en/medicines/human/EPAR/kevzara",
+      "rev": "EMA fallback",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "200 mg SC once every 2 weeks; reduce to 150 mg every 2 weeks for specified laboratory abnormalities.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Anakinra",
+      "b": "Kineret 100 mg representative",
+      "src": "https://www.medicines.ie/medicines/kineret-100-mg-0-67-ml-solution-for-injection-in-pre-filled-syringe-32599/spc",
+      "rev": "17/10/2025",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "100 mg SC once daily.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Secukinumab",
+      "b": "Cosentyx representative",
+      "src": "https://www.medicines.ie/active-ingredients/secukinumab-25295/",
+      "rev": "current listing",
+      "i": {
+        "Psoriatic arthritis": {
+          "dose": "150 mg SC at weeks 0,1,2,3,4 then monthly; 300 mg regimen applies in specified patients including concomitant significant psoriasis/inadequate anti-TNF response.",
+          "route": "SC"
+        },
+        "Axial spondyloarthritis": {
+          "dose": "150 mg SC at weeks 0,1,2,3,4 then monthly; indication-specific escalation may apply.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Ixekizumab",
+      "b": "Taltz representative",
+      "src": "https://www.medicines.ie/medicines/taltz-80-mg-solution-for-injection-in-pre-filled-syringe-33907",
+      "rev": "current",
+      "i": {
+        "Psoriatic arthritis": {
+          "dose": "160 mg SC at week 0, then 80 mg every 4 weeks. If concomitant moderate–severe plaque psoriasis, use psoriasis loading schedule.",
+          "route": "SC"
+        },
+        "Axial spondyloarthritis": {
+          "dose": "160 mg SC at week 0, then 80 mg every 4 weeks.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Bimekizumab",
+      "b": "Bimzelx representative",
+      "src": "https://www.medicines.ie/medicines/bimzelx-160-mg-solution-for-injection-in-pre-filled-pen-35416/spc",
+      "rev": "19/05/2026",
+      "i": {
+        "Psoriatic arthritis": {
+          "dose": "160 mg SC every 4 weeks; patients with concomitant moderate–severe plaque psoriasis use psoriasis regimen.",
+          "route": "SC"
+        },
+        "Axial spondyloarthritis": {
+          "dose": "160 mg SC every 4 weeks.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Ustekinumab",
+      "b": "Stelara representative",
+      "src": "https://www.medicines.ie/medicines/stelara-90-mg-solution-for-injection-in-pre-filled-pen-35460/spc",
+      "rev": "30/07/2026",
+      "i": {
+        "Psoriatic arthritis": {
+          "dose": "45 mg SC at weeks 0 and 4, then every 12 weeks; 90 mg may be used in patients >100 kg.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Guselkumab",
+      "b": "Tremfya representative",
+      "src": "https://www.medicines.ie/medicines/tremfya-100-mg-onepress-solution-for-injection-in-pre-filled-pen-34706/spc",
+      "rev": "05/01/2026",
+      "i": {
+        "Psoriatic arthritis": {
+          "dose": "100 mg SC at weeks 0 and 4, then every 8 weeks; every-4-week maintenance may be considered in specified high joint-damage-risk patients according to SmPC.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Risankizumab",
+      "b": "Skyrizi 150 mg",
+      "src": "https://www.medicines.ie/medicines/skyrizi-150-mg-solution-for-injection-in-pre-filled-pen-35083",
+      "rev": "14/09/2026",
+      "i": {
+        "Psoriatic arthritis": {
+          "dose": "150 mg SC at week 0, week 4, then every 12 weeks.",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Belimumab",
+      "b": "Benlysta representative",
+      "src": "https://www.medicines.ie/medicines/benlysta-120-mg-and-400-mg-powder-for-concentrate-for-solution-for-infusion-31415/",
+      "rev": "24/07/2025",
+      "i": {
+        "Systemic lupus erythematosus": {
+          "dose": "IV: 10 mg/kg on days 0, 14 and 28 then every 28 days. SC adult regimen: 200 mg once weekly.",
+          "route": "IV or SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Anifrolumab",
+      "b": "Saphnelo 300 mg",
+      "src": "https://www.medicines.ie/medicines/saphnelo-300-mg-concentrate-for-solution-for-infusion-35488/spc",
+      "rev": "07/09/2026",
+      "i": {
+        "Systemic lupus erythematosus": {
+          "dose": "300 mg IV every 4 weeks.",
+          "route": "IV"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "bDMARD",
+      "d": "Mepolizumab",
+      "b": "Nucala 100 mg representative",
+      "src": "https://www.medicines.ie/medicines/nucala-100-mg-powder-for-solution-for-injection-33145/spc",
+      "rev": "11/02/2026",
+      "i": {
+        "Eosinophilic granulomatosis with polyangiitis": {
+          "dose": "300 mg SC once every 4 weeks (three 100 mg injections).",
+          "route": "SC"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC, renal profile, ALT/AST, albumin",
+          "TB screening before biologic therapy",
+          "HBV; HCV/HIV assessment as applicable",
+          "Active/recurrent infection review",
+          "Vaccination status",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Do not start in clinically significant active infection; apply exact section 4.3 product contraindications.",
+          "Check class/product-specific cardiac, neurological, malignancy and hypersensitivity precautions."
+        ],
+        "warn": [
+          "Serious/opportunistic infection and TB risk.",
+          "HBV reactivation risk where relevant.",
+          "Avoid live vaccines during significant biologic immunosuppression unless specialist guidance supports otherwise."
+        ],
+        "inter": [
+          "Avoid unapproved combinations of biologic immunosuppressants.",
+          "Review concomitant immunosuppression and section 4.5 of the selected SmPC."
+        ],
+        "preg": [
+          "Pregnancy/breastfeeding advice is molecule-specific; use section 4.6 for the selected product."
+        ],
+        "ae": [
+          "Infection and injection/infusion reactions are key counselling domains.",
+          "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
+        ],
+        "monitor": [
+          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
+          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+        ]
+      }
+    },
+    {
+      "c": "tsDMARD",
+      "d": "Baricitinib",
+      "b": "Olumiant representative",
+      "src": "https://www.medicines.ie/medicines/olumiant-2-mg-and-4-mg-film-coated-tablets-33207",
+      "rev": "13/05/2026",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "4 mg orally once daily. 2 mg once daily is appropriate in specified older/infection-risk patients and may be used for dose tapering after sustained control.",
+          "route": "Oral"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC including lymphocytes/neutrophils",
+          "Renal and hepatic function",
+          "TB screening",
+          "HBV; HCV/HIV assessment as applicable",
+          "Lipids",
+          "Vaccination review",
+          "VTE/MACE/malignancy risk assessment",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications.",
+          "Do not initiate with serious active infection; observe product laboratory thresholds."
+        ],
+        "warn": [
+          "Serious infection/TB and herpes zoster.",
+          "MACE, malignancy and VTE risk warnings require individual risk assessment.",
+          "Use only when appropriate alternatives and current regulatory restrictions have been considered in higher-risk patients."
+        ],
+        "inter": [
+          "Review CYP/P-gp or other product-specific interactions.",
+          "Avoid combination with biologic DMARDs or other potent immunosuppressants unless specifically supported."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy and breastfeeding restrictions."
+        ],
+        "ae": [
+          "Infection, herpes zoster, cytopenias, liver enzyme/lipid changes.",
+          "Urgent assessment for VTE, cardiovascular, serious infection or other product-specific red flags."
+        ],
+        "monitor": [
+          "FBC, liver tests and lipids at product-specified intervals; renal monitoring where relevant.",
+          "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+        ]
+      }
+    },
+    {
+      "c": "tsDMARD",
+      "d": "Tofacitinib",
+      "b": "Xeljanz 5 mg representative",
+      "src": "https://www.medicines.ie/medicines/xeljanz-5mg-film-coated-tablets-34249/spc",
+      "rev": "18/08/2026",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "5 mg orally twice daily.",
+          "route": "Oral"
+        },
+        "Psoriatic arthritis": {
+          "dose": "5 mg orally twice daily.",
+          "route": "Oral"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC including lymphocytes/neutrophils",
+          "Renal and hepatic function",
+          "TB screening",
+          "HBV; HCV/HIV assessment as applicable",
+          "Lipids",
+          "Vaccination review",
+          "VTE/MACE/malignancy risk assessment",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications.",
+          "Do not initiate with serious active infection; observe product laboratory thresholds."
+        ],
+        "warn": [
+          "Serious infection/TB and herpes zoster.",
+          "MACE, malignancy and VTE risk warnings require individual risk assessment.",
+          "Use only when appropriate alternatives and current regulatory restrictions have been considered in higher-risk patients."
+        ],
+        "inter": [
+          "Review CYP/P-gp or other product-specific interactions.",
+          "Avoid combination with biologic DMARDs or other potent immunosuppressants unless specifically supported."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy and breastfeeding restrictions."
+        ],
+        "ae": [
+          "Infection, herpes zoster, cytopenias, liver enzyme/lipid changes.",
+          "Urgent assessment for VTE, cardiovascular, serious infection or other product-specific red flags."
+        ],
+        "monitor": [
+          "FBC, liver tests and lipids at product-specified intervals; renal monitoring where relevant.",
+          "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+        ]
+      }
+    },
+    {
+      "c": "tsDMARD",
+      "d": "Upadacitinib",
+      "b": "Rinvoq 15 mg",
+      "src": "https://www.medicines.ie/medicines/rinvoq-15-mg-prolonged-release-tablets-34904/spc",
+      "rev": "07/08/2026",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "15 mg orally once daily.",
+          "route": "Oral"
+        },
+        "Psoriatic arthritis": {
+          "dose": "15 mg orally once daily.",
+          "route": "Oral"
+        },
+        "Axial spondyloarthritis": {
+          "dose": "15 mg orally once daily.",
+          "route": "Oral"
+        },
+        "Giant cell arteritis": {
+          "dose": "15 mg orally once daily with tapering corticosteroids; may continue after steroid discontinuation; not monotherapy for acute relapse.",
+          "route": "Oral"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC including lymphocytes/neutrophils",
+          "Renal and hepatic function",
+          "TB screening",
+          "HBV; HCV/HIV assessment as applicable",
+          "Lipids",
+          "Vaccination review",
+          "VTE/MACE/malignancy risk assessment",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications.",
+          "Do not initiate with serious active infection; observe product laboratory thresholds."
+        ],
+        "warn": [
+          "Serious infection/TB and herpes zoster.",
+          "MACE, malignancy and VTE risk warnings require individual risk assessment.",
+          "Use only when appropriate alternatives and current regulatory restrictions have been considered in higher-risk patients."
+        ],
+        "inter": [
+          "Review CYP/P-gp or other product-specific interactions.",
+          "Avoid combination with biologic DMARDs or other potent immunosuppressants unless specifically supported."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy and breastfeeding restrictions."
+        ],
+        "ae": [
+          "Infection, herpes zoster, cytopenias, liver enzyme/lipid changes.",
+          "Urgent assessment for VTE, cardiovascular, serious infection or other product-specific red flags."
+        ],
+        "monitor": [
+          "FBC, liver tests and lipids at product-specified intervals; renal monitoring where relevant.",
+          "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+        ]
+      }
+    },
+    {
+      "c": "tsDMARD",
+      "d": "Filgotinib",
+      "b": "Jyseleca representative",
+      "src": "https://www.medicines.ie/active-ingredients/filgotinib-25767/",
+      "rev": "current listing",
+      "i": {
+        "Rheumatoid arthritis": {
+          "dose": "200 mg orally once daily; 100 mg once daily is recommended/considered in specified older or renal-risk groups according to SmPC.",
+          "route": "Oral"
+        }
+      },
+      "safety": {
+        "pre": [
+          "FBC including lymphocytes/neutrophils",
+          "Renal and hepatic function",
+          "TB screening",
+          "HBV; HCV/HIV assessment as applicable",
+          "Lipids",
+          "Vaccination review",
+          "VTE/MACE/malignancy risk assessment",
+          "Pregnancy/family planning"
+        ],
+        "contra": [
+          "Apply exact section 4.3 contraindications.",
+          "Do not initiate with serious active infection; observe product laboratory thresholds."
+        ],
+        "warn": [
+          "Serious infection/TB and herpes zoster.",
+          "MACE, malignancy and VTE risk warnings require individual risk assessment.",
+          "Use only when appropriate alternatives and current regulatory restrictions have been considered in higher-risk patients."
+        ],
+        "inter": [
+          "Review CYP/P-gp or other product-specific interactions.",
+          "Avoid combination with biologic DMARDs or other potent immunosuppressants unless specifically supported."
+        ],
+        "preg": [
+          "Apply section 4.6 product-specific contraception, pregnancy and breastfeeding restrictions."
+        ],
+        "ae": [
+          "Infection, herpes zoster, cytopenias, liver enzyme/lipid changes.",
+          "Urgent assessment for VTE, cardiovascular, serious infection or other product-specific red flags."
+        ],
+        "monitor": [
+          "FBC, liver tests and lipids at product-specified intervals; renal monitoring where relevant.",
+          "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+        ]
+      }
+    }
+  ]
+}
