@@ -1,0 +1,7 @@
+{
+  "drug_id":"string","generic_name":"string","dmard_class":"csDMARD|tsDMARD|bDMARD",
+  "brands":[{"brand":"string","formulations":["string"],"market_status":"string","reimbursement_status":"string"}],
+  "indications":[{"name":"string","licensed":true,"dose_rules":[]}],
+  "clinical_sections":["overview","dose","before_starting","contraindications","precautions","interactions","adverse_effects","monitoring","infection_vaccination","pregnancy_breastfeeding","surgery","patient_counselling","red_flags"],
+  "provenance":{"source":"string","section":"string","version_date":"date","last_verified":"date","reviewer":"string"}
+}
