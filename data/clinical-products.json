@@ -1,13 +1,14 @@
 {
   "meta": {
-    "version": "1.5",
+    "version": "1.5.1",
     "verified_on": "2026-09-22",
     "scope": "Representative Irish/EU SmPC-derived rheumatology prescribing dataset. Device-specific instructions remain product-specific.",
     "ui_note": "Exact brand/formulation selection restored. Brand-specific SmPC/EMA provenance is shown; Humira may serve as an explicitly labelled reference only for unextracted adalimumab fields.",
     "patient_model": "Patient accordions mirror the csDMARD education structure: purpose, administration, common side effects, stop/hold red flags, monitoring/tests, practical safety advice, and product/resource links.",
     "clinician_rule": "Clinician accordions contain in-app section summaries. External SmPC links are supplemental provenance/deep links, not instructions to look up missing core information.",
     "source_hierarchy": "Exact medicines.ie product SmPC first; if unavailable, exact HPRA product/SmPC; if unavailable or HPRA routes centrally authorised documentation to EMA, exact EMA product information/SmPC. Never substitute an active-ingredient landing page as product provenance.",
-    "source_audit_status": "Source hierarchy implemented; exact-brand provenance audit is ongoing and unresolved entries must be labelled rather than silently substituted."
+    "source_audit_status": "Source hierarchy implemented; exact-brand provenance audit is ongoing and unresolved entries must be labelled rather than silently substituted.",
+    "monitoring_rule": "Monitoring content must be medicine-specific. Do not display class-wide q3–6 month laboratory schedules unless the selected medicine itself or a clearly labelled concomitant-therapy guideline requires them."
   },
   "products": [
     {
@@ -1779,8 +1780,12 @@
           "Red flags: serious infection, shingles involving eye/face or severe disease, DVT/PE symptoms, cardiovascular event symptoms, severe cytopenia or suspected liver injury."
         ],
         "monitor": [
-          "FBC, liver tests and lipids at product-specified intervals; renal monitoring where relevant.",
-          "Assess infection and VTE/MACE/malignancy risk over time and treatment response."
+          "Full blood count: monitor lymphocytes, neutrophils and haemoglobin; interrupt treatment if values fall below the SmPC treatment thresholds.",
+          "Liver function: monitor transaminases; interrupt if drug-induced liver injury is suspected.",
+          "Lipids: check approximately 12 weeks after starting and manage according to lipid guidelines.",
+          "Kidney function: reassess renal function because dose selection depends on renal impairment and interacting OAT3 inhibitors.",
+          "Infection / herpes zoster: monitor throughout treatment; interrupt for a serious infection until controlled.",
+          "VTE/MACE risk: reassess promptly for symptoms of DVT/PE or cardiovascular events and periodically reconsider risk factors during treatment."
         ]
       },
       "patient": {
@@ -3188,8 +3193,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Full blood count including neutrophils: monitor during treatment and when clinically indicated; delayed neutropenia can occur.",
+          "Immunoglobulins: check immunoglobulin levels before treatment/courses and follow during ongoing/repeated treatment according to the product and specialist protocol.",
+          "Infection: monitor during and after treatment; investigate recurrent or serious infection promptly.",
+          "Hepatitis B: patients with evidence of prior HBV infection require specialist monitoring/prophylaxis planning because reactivation can occur.",
+          "Infusion reactions: monitor during each infusion and follow the product-specific infusion management instructions.",
+          "Clinical response / retreatment: reassess disease activity before repeat courses rather than using a generic biologic monitoring interval."
         ]
       },
       "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
@@ -3273,8 +3282,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Full blood count including neutrophils: monitor during treatment and when clinically indicated; delayed neutropenia can occur.",
+          "Immunoglobulins: check immunoglobulin levels before treatment/courses and follow during ongoing/repeated treatment according to the product and specialist protocol.",
+          "Infection: monitor during and after treatment; investigate recurrent or serious infection promptly.",
+          "Hepatitis B: patients with evidence of prior HBV infection require specialist monitoring/prophylaxis planning because reactivation can occur.",
+          "Infusion reactions: monitor during each infusion and follow the product-specific infusion management instructions.",
+          "Clinical response / retreatment: reassess disease activity before repeat courses rather than using a generic biologic monitoring interval."
         ]
       },
       "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
@@ -3358,8 +3371,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Full blood count including neutrophils: monitor during treatment and when clinically indicated; delayed neutropenia can occur.",
+          "Immunoglobulins: check immunoglobulin levels before treatment/courses and follow during ongoing/repeated treatment according to the product and specialist protocol.",
+          "Infection: monitor during and after treatment; investigate recurrent or serious infection promptly.",
+          "Hepatitis B: patients with evidence of prior HBV infection require specialist monitoring/prophylaxis planning because reactivation can occur.",
+          "Infusion reactions: monitor during each infusion and follow the product-specific infusion management instructions.",
+          "Clinical response / retreatment: reassess disease activity before repeat courses rather than using a generic biologic monitoring interval."
         ]
       },
       "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
@@ -3443,8 +3460,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Full blood count including neutrophils: monitor during treatment and when clinically indicated; delayed neutropenia can occur.",
+          "Immunoglobulins: check immunoglobulin levels before treatment/courses and follow during ongoing/repeated treatment according to the product and specialist protocol.",
+          "Infection: monitor during and after treatment; investigate recurrent or serious infection promptly.",
+          "Hepatitis B: patients with evidence of prior HBV infection require specialist monitoring/prophylaxis planning because reactivation can occur.",
+          "Infusion reactions: monitor during each infusion and follow the product-specific infusion management instructions.",
+          "Clinical response / retreatment: reassess disease activity before repeat courses rather than using a generic biologic monitoring interval."
         ]
       },
       "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
@@ -3528,8 +3549,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Full blood count including neutrophils: monitor during treatment and when clinically indicated; delayed neutropenia can occur.",
+          "Immunoglobulins: check immunoglobulin levels before treatment/courses and follow during ongoing/repeated treatment according to the product and specialist protocol.",
+          "Infection: monitor during and after treatment; investigate recurrent or serious infection promptly.",
+          "Hepatitis B: patients with evidence of prior HBV infection require specialist monitoring/prophylaxis planning because reactivation can occur.",
+          "Infusion reactions: monitor during each infusion and follow the product-specific infusion management instructions.",
+          "Clinical response / retreatment: reassess disease activity before repeat courses rather than using a generic biologic monitoring interval."
         ]
       },
       "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
@@ -3613,8 +3638,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Full blood count including neutrophils: monitor during treatment and when clinically indicated; delayed neutropenia can occur.",
+          "Immunoglobulins: check immunoglobulin levels before treatment/courses and follow during ongoing/repeated treatment according to the product and specialist protocol.",
+          "Infection: monitor during and after treatment; investigate recurrent or serious infection promptly.",
+          "Hepatitis B: patients with evidence of prior HBV infection require specialist monitoring/prophylaxis planning because reactivation can occur.",
+          "Infusion reactions: monitor during each infusion and follow the product-specific infusion management instructions.",
+          "Clinical response / retreatment: reassess disease activity before repeat courses rather than using a generic biologic monitoring interval."
         ]
       },
       "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
@@ -3698,8 +3727,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "ALT/AST: every 4–8 weeks for the first 6 months, then every 12 weeks in adult RA/GCA.",
+          "Neutrophils: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Platelets: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Lipids: assess after initiation as specified in the current SmPC and manage abnormalities according to clinical guidelines.",
+          "Infection: monitor throughout treatment; interrupt tocilizumab for a serious infection until controlled.",
+          "Dose interruption/discontinuation: apply the product-specific ALT/AST, ANC and platelet thresholds in SmPC section 4.2."
         ]
       },
       "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
@@ -3779,8 +3812,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "ALT/AST: every 4–8 weeks for the first 6 months, then every 12 weeks in adult RA/GCA.",
+          "Neutrophils: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Platelets: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Lipids: assess after initiation as specified in the current SmPC and manage abnormalities according to clinical guidelines.",
+          "Infection: monitor throughout treatment; interrupt tocilizumab for a serious infection until controlled.",
+          "Dose interruption/discontinuation: apply the product-specific ALT/AST, ANC and platelet thresholds in SmPC section 4.2."
         ]
       },
       "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
@@ -3864,8 +3901,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "ALT/AST: every 4–8 weeks for the first 6 months, then every 12 weeks in adult RA/GCA.",
+          "Neutrophils: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Platelets: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Lipids: assess after initiation as specified in the current SmPC and manage abnormalities according to clinical guidelines.",
+          "Infection: monitor throughout treatment; interrupt tocilizumab for a serious infection until controlled.",
+          "Dose interruption/discontinuation: apply the product-specific ALT/AST, ANC and platelet thresholds in SmPC section 4.2."
         ]
       },
       "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
@@ -3945,8 +3986,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "ALT/AST: every 4–8 weeks for the first 6 months, then every 12 weeks in adult RA/GCA.",
+          "Neutrophils: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Platelets: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Lipids: assess after initiation as specified in the current SmPC and manage abnormalities according to clinical guidelines.",
+          "Infection: monitor throughout treatment; interrupt tocilizumab for a serious infection until controlled.",
+          "Dose interruption/discontinuation: apply the product-specific ALT/AST, ANC and platelet thresholds in SmPC section 4.2."
         ]
       },
       "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
@@ -4030,8 +4075,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "ALT/AST: every 4–8 weeks for the first 6 months, then every 12 weeks in adult RA/GCA.",
+          "Neutrophils: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Platelets: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Lipids: assess after initiation as specified in the current SmPC and manage abnormalities according to clinical guidelines.",
+          "Infection: monitor throughout treatment; interrupt tocilizumab for a serious infection until controlled.",
+          "Dose interruption/discontinuation: apply the product-specific ALT/AST, ANC and platelet thresholds in SmPC section 4.2."
         ]
       },
       "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
@@ -4111,8 +4160,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "ALT/AST: every 4–8 weeks for the first 6 months, then every 12 weeks in adult RA/GCA.",
+          "Neutrophils: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Platelets: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Lipids: assess after initiation as specified in the current SmPC and manage abnormalities according to clinical guidelines.",
+          "Infection: monitor throughout treatment; interrupt tocilizumab for a serious infection until controlled.",
+          "Dose interruption/discontinuation: apply the product-specific ALT/AST, ANC and platelet thresholds in SmPC section 4.2."
         ]
       },
       "brand_verification": "Brand-specific record retained; current product SmPC/source link to be used for provenance",
@@ -4196,8 +4249,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "ALT/AST: every 4–8 weeks for the first 6 months, then every 12 weeks in adult RA/GCA.",
+          "Neutrophils: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Platelets: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Lipids: assess after initiation as specified in the current SmPC and manage abnormalities according to clinical guidelines.",
+          "Infection: monitor throughout treatment; interrupt tocilizumab for a serious infection until controlled.",
+          "Dose interruption/discontinuation: apply the product-specific ALT/AST, ANC and platelet thresholds in SmPC section 4.2."
         ]
       },
       "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
@@ -4277,8 +4334,12 @@
           "Use product-specific red flags including hypersensitivity and class-specific organ toxicity."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "ALT/AST: every 4–8 weeks for the first 6 months, then every 12 weeks in adult RA/GCA.",
+          "Neutrophils: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Platelets: check 4–8 weeks after starting, then according to standard clinical practice.",
+          "Lipids: assess after initiation as specified in the current SmPC and manage abnormalities according to clinical guidelines.",
+          "Infection: monitor throughout treatment; interrupt tocilizumab for a serious infection until controlled.",
+          "Dose interruption/discontinuation: apply the product-specific ALT/AST, ANC and platelet thresholds in SmPC section 4.2."
         ]
       },
       "brand_verification": "EMA-labelled source/fallback; brand-specific record retained",
@@ -4857,8 +4918,13 @@
           "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Clinical response: assess joint/skin/axial disease activity according to the treated indication; this is efficacy follow-up rather than a fixed adalimumab laboratory schedule.",
+          "Infection: review for new or recurrent infection at each clinical contact; interrupt treatment if a serious infection or sepsis develops.",
+          "Tuberculosis: reassess promptly if TB symptoms or a new significant exposure occurs; routine interval IGRA testing is not specified by the adalimumab SmPC.",
+          "Hepatitis B: in patients who are HBV carriers, monitor for clinical and laboratory evidence of reactivation during treatment and for several months after stopping.",
+          "Full blood count: not mandated by the adalimumab SmPC at a fixed interval; check if clinically indicated, particularly with symptoms suggesting cytopenia or when concomitant therapy requires it.",
+          "Renal/liver tests: no fixed adalimumab-specific routine interval in the SmPC; perform when clinically indicated or according to concomitant DMARD requirements.",
+          "Heart failure / neurological symptoms: reassess if new dyspnoea/oedema or demyelinating neurological symptoms develop."
         ]
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
@@ -4962,8 +5028,13 @@
           "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Clinical response: assess joint/skin/axial disease activity according to the treated indication; this is efficacy follow-up rather than a fixed adalimumab laboratory schedule.",
+          "Infection: review for new or recurrent infection at each clinical contact; interrupt treatment if a serious infection or sepsis develops.",
+          "Tuberculosis: reassess promptly if TB symptoms or a new significant exposure occurs; routine interval IGRA testing is not specified by the adalimumab SmPC.",
+          "Hepatitis B: in patients who are HBV carriers, monitor for clinical and laboratory evidence of reactivation during treatment and for several months after stopping.",
+          "Full blood count: not mandated by the adalimumab SmPC at a fixed interval; check if clinically indicated, particularly with symptoms suggesting cytopenia or when concomitant therapy requires it.",
+          "Renal/liver tests: no fixed adalimumab-specific routine interval in the SmPC; perform when clinically indicated or according to concomitant DMARD requirements.",
+          "Heart failure / neurological symptoms: reassess if new dyspnoea/oedema or demyelinating neurological symptoms develop."
         ]
       },
       "brand_verification": "IE listing / product SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
@@ -5067,8 +5138,13 @@
           "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Clinical response: assess joint/skin/axial disease activity according to the treated indication; this is efficacy follow-up rather than a fixed adalimumab laboratory schedule.",
+          "Infection: review for new or recurrent infection at each clinical contact; interrupt treatment if a serious infection or sepsis develops.",
+          "Tuberculosis: reassess promptly if TB symptoms or a new significant exposure occurs; routine interval IGRA testing is not specified by the adalimumab SmPC.",
+          "Hepatitis B: in patients who are HBV carriers, monitor for clinical and laboratory evidence of reactivation during treatment and for several months after stopping.",
+          "Full blood count: not mandated by the adalimumab SmPC at a fixed interval; check if clinically indicated, particularly with symptoms suggesting cytopenia or when concomitant therapy requires it.",
+          "Renal/liver tests: no fixed adalimumab-specific routine interval in the SmPC; perform when clinically indicated or according to concomitant DMARD requirements.",
+          "Heart failure / neurological symptoms: reassess if new dyspnoea/oedema or demyelinating neurological symptoms develop."
         ]
       },
       "brand_verification": "EMA SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
@@ -5172,8 +5248,13 @@
           "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Clinical response: assess joint/skin/axial disease activity according to the treated indication; this is efficacy follow-up rather than a fixed adalimumab laboratory schedule.",
+          "Infection: review for new or recurrent infection at each clinical contact; interrupt treatment if a serious infection or sepsis develops.",
+          "Tuberculosis: reassess promptly if TB symptoms or a new significant exposure occurs; routine interval IGRA testing is not specified by the adalimumab SmPC.",
+          "Hepatitis B: in patients who are HBV carriers, monitor for clinical and laboratory evidence of reactivation during treatment and for several months after stopping.",
+          "Full blood count: not mandated by the adalimumab SmPC at a fixed interval; check if clinically indicated, particularly with symptoms suggesting cytopenia or when concomitant therapy requires it.",
+          "Renal/liver tests: no fixed adalimumab-specific routine interval in the SmPC; perform when clinically indicated or according to concomitant DMARD requirements.",
+          "Heart failure / neurological symptoms: reassess if new dyspnoea/oedema or demyelinating neurological symptoms develop."
         ]
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
@@ -5277,8 +5358,13 @@
           "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Clinical response: assess joint/skin/axial disease activity according to the treated indication; this is efficacy follow-up rather than a fixed adalimumab laboratory schedule.",
+          "Infection: review for new or recurrent infection at each clinical contact; interrupt treatment if a serious infection or sepsis develops.",
+          "Tuberculosis: reassess promptly if TB symptoms or a new significant exposure occurs; routine interval IGRA testing is not specified by the adalimumab SmPC.",
+          "Hepatitis B: in patients who are HBV carriers, monitor for clinical and laboratory evidence of reactivation during treatment and for several months after stopping.",
+          "Full blood count: not mandated by the adalimumab SmPC at a fixed interval; check if clinically indicated, particularly with symptoms suggesting cytopenia or when concomitant therapy requires it.",
+          "Renal/liver tests: no fixed adalimumab-specific routine interval in the SmPC; perform when clinically indicated or according to concomitant DMARD requirements.",
+          "Heart failure / neurological symptoms: reassess if new dyspnoea/oedema or demyelinating neurological symptoms develop."
         ]
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
@@ -5382,8 +5468,13 @@
           "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Clinical response: assess joint/skin/axial disease activity according to the treated indication; this is efficacy follow-up rather than a fixed adalimumab laboratory schedule.",
+          "Infection: review for new or recurrent infection at each clinical contact; interrupt treatment if a serious infection or sepsis develops.",
+          "Tuberculosis: reassess promptly if TB symptoms or a new significant exposure occurs; routine interval IGRA testing is not specified by the adalimumab SmPC.",
+          "Hepatitis B: in patients who are HBV carriers, monitor for clinical and laboratory evidence of reactivation during treatment and for several months after stopping.",
+          "Full blood count: not mandated by the adalimumab SmPC at a fixed interval; check if clinically indicated, particularly with symptoms suggesting cytopenia or when concomitant therapy requires it.",
+          "Renal/liver tests: no fixed adalimumab-specific routine interval in the SmPC; perform when clinically indicated or according to concomitant DMARD requirements.",
+          "Heart failure / neurological symptoms: reassess if new dyspnoea/oedema or demyelinating neurological symptoms develop."
         ]
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
@@ -5487,8 +5578,13 @@
           "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Clinical response: assess joint/skin/axial disease activity according to the treated indication; this is efficacy follow-up rather than a fixed adalimumab laboratory schedule.",
+          "Infection: review for new or recurrent infection at each clinical contact; interrupt treatment if a serious infection or sepsis develops.",
+          "Tuberculosis: reassess promptly if TB symptoms or a new significant exposure occurs; routine interval IGRA testing is not specified by the adalimumab SmPC.",
+          "Hepatitis B: in patients who are HBV carriers, monitor for clinical and laboratory evidence of reactivation during treatment and for several months after stopping.",
+          "Full blood count: not mandated by the adalimumab SmPC at a fixed interval; check if clinically indicated, particularly with symptoms suggesting cytopenia or when concomitant therapy requires it.",
+          "Renal/liver tests: no fixed adalimumab-specific routine interval in the SmPC; perform when clinically indicated or according to concomitant DMARD requirements.",
+          "Heart failure / neurological symptoms: reassess if new dyspnoea/oedema or demyelinating neurological symptoms develop."
         ]
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
@@ -5592,8 +5688,13 @@
           "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Clinical response: assess joint/skin/axial disease activity according to the treated indication; this is efficacy follow-up rather than a fixed adalimumab laboratory schedule.",
+          "Infection: review for new or recurrent infection at each clinical contact; interrupt treatment if a serious infection or sepsis develops.",
+          "Tuberculosis: reassess promptly if TB symptoms or a new significant exposure occurs; routine interval IGRA testing is not specified by the adalimumab SmPC.",
+          "Hepatitis B: in patients who are HBV carriers, monitor for clinical and laboratory evidence of reactivation during treatment and for several months after stopping.",
+          "Full blood count: not mandated by the adalimumab SmPC at a fixed interval; check if clinically indicated, particularly with symptoms suggesting cytopenia or when concomitant therapy requires it.",
+          "Renal/liver tests: no fixed adalimumab-specific routine interval in the SmPC; perform when clinically indicated or according to concomitant DMARD requirements.",
+          "Heart failure / neurological symptoms: reassess if new dyspnoea/oedema or demyelinating neurological symptoms develop."
         ]
       },
       "brand_verification": "IE SmPC; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
@@ -5697,8 +5798,13 @@
           "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Clinical response: assess joint/skin/axial disease activity according to the treated indication; this is efficacy follow-up rather than a fixed adalimumab laboratory schedule.",
+          "Infection: review for new or recurrent infection at each clinical contact; interrupt treatment if a serious infection or sepsis develops.",
+          "Tuberculosis: reassess promptly if TB symptoms or a new significant exposure occurs; routine interval IGRA testing is not specified by the adalimumab SmPC.",
+          "Hepatitis B: in patients who are HBV carriers, monitor for clinical and laboratory evidence of reactivation during treatment and for several months after stopping.",
+          "Full blood count: not mandated by the adalimumab SmPC at a fixed interval; check if clinically indicated, particularly with symptoms suggesting cytopenia or when concomitant therapy requires it.",
+          "Renal/liver tests: no fixed adalimumab-specific routine interval in the SmPC; perform when clinically indicated or according to concomitant DMARD requirements.",
+          "Heart failure / neurological symptoms: reassess if new dyspnoea/oedema or demyelinating neurological symptoms develop."
         ]
       },
       "brand_verification": "EMA SmPC via medicines.ie; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
@@ -5802,8 +5908,13 @@
           "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Clinical response: assess joint/skin/axial disease activity according to the treated indication; this is efficacy follow-up rather than a fixed adalimumab laboratory schedule.",
+          "Infection: review for new or recurrent infection at each clinical contact; interrupt treatment if a serious infection or sepsis develops.",
+          "Tuberculosis: reassess promptly if TB symptoms or a new significant exposure occurs; routine interval IGRA testing is not specified by the adalimumab SmPC.",
+          "Hepatitis B: in patients who are HBV carriers, monitor for clinical and laboratory evidence of reactivation during treatment and for several months after stopping.",
+          "Full blood count: not mandated by the adalimumab SmPC at a fixed interval; check if clinically indicated, particularly with symptoms suggesting cytopenia or when concomitant therapy requires it.",
+          "Renal/liver tests: no fixed adalimumab-specific routine interval in the SmPC; perform when clinically indicated or according to concomitant DMARD requirements.",
+          "Heart failure / neurological symptoms: reassess if new dyspnoea/oedema or demyelinating neurological symptoms develop."
         ]
       },
       "brand_verification": "EMA SmPC via medicines.ie; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
@@ -5907,8 +6018,13 @@
           "Red flags: serious infection/TB, severe allergic reaction, new neurological symptoms, heart-failure deterioration, significant cytopenia or lupus-like syndrome."
         ],
         "monitor": [
-          "Assess disease response regularly; active disease commonly requires review every 1–3 months until target.",
-          "Periodic FBC/renal/LFT/albumin commonly every 3–6 months when not driven by a concomitant csDMARD; apply product-specific monitoring (e.g. IL-6 laboratory/lipid monitoring, rituximab immunoglobulins)."
+          "Clinical response: assess joint/skin/axial disease activity according to the treated indication; this is efficacy follow-up rather than a fixed adalimumab laboratory schedule.",
+          "Infection: review for new or recurrent infection at each clinical contact; interrupt treatment if a serious infection or sepsis develops.",
+          "Tuberculosis: reassess promptly if TB symptoms or a new significant exposure occurs; routine interval IGRA testing is not specified by the adalimumab SmPC.",
+          "Hepatitis B: in patients who are HBV carriers, monitor for clinical and laboratory evidence of reactivation during treatment and for several months after stopping.",
+          "Full blood count: not mandated by the adalimumab SmPC at a fixed interval; check if clinically indicated, particularly with symptoms suggesting cytopenia or when concomitant therapy requires it.",
+          "Renal/liver tests: no fixed adalimumab-specific routine interval in the SmPC; perform when clinically indicated or according to concomitant DMARD requirements.",
+          "Heart failure / neurological symptoms: reassess if new dyspnoea/oedema or demyelinating neurological symptoms develop."
         ]
       },
       "brand_verification": "EMA SmPC via medicines.ie; brand-specific record. Humira clinical content may be used only as explicitly labelled reference where a brand-specific field has not yet been extracted.",
