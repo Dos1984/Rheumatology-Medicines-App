@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "description": "Structured product-level SmPC record for Rheumatology Medicines.",
+  "product": {
+    "generic_name": "",
+    "brand": "",
+    "strengths": [],
+    "formulations": [],
+    "representative_formulation": "",
+    "irish_authorisation_status": "unknown"
+  },
+  "source": {
+    "jurisdiction": "IE",
+    "source_type": "SmPC",
+    "url": "",
+    "document_revision_date": "",
+    "retrieved_on": "",
+    "verified_on": "",
+    "verification_status": "awaiting extraction",
+    "fallback_reason": ""
+  },
+  "indications": [
+    {
+      "name": "",
+      "licensed": null,
+      "population": "",
+      "dose": {
+        "starting": "",
+        "loading": "",
+        "route": "",
+        "frequency": "",
+        "titration": "",
+        "usual_target": "",
+        "maintenance": "",
+        "maximum_recommended": "",
+        "exceptional_or_intensified": "",
+        "time_to_response": "",
+        "renal_adjustment": "",
+        "hepatic_adjustment": "",
+        "elderly": "",
+        "paediatric": "",
+        "administration_notes": []
+      }
+    }
+  ],
+  "smpc_sections": {
+    "4.1_therapeutic_indications": [],
+    "4.2_posology_and_administration": {},
+    "4.3_contraindications": [],
+    "4.4_warnings_precautions": [],
+    "4.5_interactions": [],
+    "4.6_fertility_pregnancy_lactation": [],
+    "4.8_undesirable_effects": []
+  },
+  "clinical_overlay": {
+    "pretreatment_tests": [],
+    "monitoring": [],
+    "red_flags": [],
+    "guideline_sources": []
+  },
+  "patient_support": {
+    "manufacturer_url": "",
+    "administration_video_url": "",
+    "device_training_url": "",
+    "patient_leaflet_url": "",
+    "disease_resources": []
+  },
+  "audit": {
+    "extracted_by": "AI-assisted",
+    "clinically_verified_by": "",
+    "notes": []
+  }
+}
