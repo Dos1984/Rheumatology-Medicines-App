@@ -1,0 +1,23 @@
+[
+  {
+    "drug": "Adalimumab",
+    "brand": "Humira 40 mg",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/humira-40mg-solution-for-injection-in-pre-filled-pen-32384",
+    "known_revision": "17/10/2025"
+  },
+  {
+    "drug": "Etanercept",
+    "brand": "Benepali 50 mg",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/benepali-50-mg-solution-for-injection-in-pre-filled-syringe-31410",
+    "known_revision": "05/12/2025"
+  },
+  {
+    "drug": "Tocilizumab",
+    "brand": "RoActemra 162 mg SC",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/roactemra-162-mg-solution-for-injection-in-pre-filled-pen-33646",
+    "known_revision": "26/3/2026"
+  }
+]
