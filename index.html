@@ -6,7 +6,7 @@
 <header><div class="top"><div class="brand">Rheumatology Medicines</div><div>Clinical support + patient education · v0.2</div></div></header>
 <div class="shell"><section class="hero"><h1>One medicine. Two views.</h1><p>Use the clinician view for prescribing decisions, pretreatment investigations, dosing, precautions, evidence and monitoring. Switch to patient view for clear, practical education that can be discussed during the consultation.</p>
 <div class="mode"><button id="clinBtn" class="on" onclick="setMode('clinician')">🩺 Clinician view</button><button id="patBtn" onclick="setMode('patient')">👤 Patient view</button></div>
-<div class="selectors"><select id="classSel"><option>csDMARD</option><option>bDMARD</option></select><select id="drugSel"></select><select id="brandSel"></select><select id="indSel"></select></div></section>
+<div class="selectors"><select id="classSel"><option>csDMARD</option><option>bDMARD</option><option>tsDMARD</option></select><select id="drugSel"></select><select id="brandSel"></select><select id="indSel"></select></div></section>
 <section class="panel"><div class="medicine-head"><div><span class="pill" id="classPill"></span><h2 id="drugTitle"></h2><div id="subtitle" style="color:var(--muted)"></div></div><button class="action" onclick="showChecklist()">✓ Start medicine checklist</button></div><div id="accordions"></div><div class="foot">Prototype clinical decision support only. Verify current product SmPC and applicable local policy before prescribing. No patient-identifiable information is required or stored.</div></section></div>
 <script>
 let mode='clinician';
@@ -68,6 +68,63 @@ const doseRules={
 "Metoject":"<div class='note red'><b>Critical safety:</b> once weekly.</div><div class='dosebox'><strong>Metoject PEN SmPC — severe PsA</strong><ul><li><b>Test dose:</b> 5–10 mg parenterally one week before initiation</li><li><b>Starting dose:</b> 7.5 mg SC once weekly</li><li><b>Titration:</b> increase gradually</li><li><b>Maximum recommended dose:</b> 25 mg once weekly — should generally not be exceeded</li><li class='foot'><b>Nuance:</b> exceptional higher dosing is described in the selected SmPC, with an upper limit of 30 mg/week because toxicity increases markedly. This should not be presented as the routine maximum.</li><li><b>Expected response:</b> approximately 2–6 weeks</li><li><b>Maintenance:</b> reduce gradually to the lowest effective dose</li></ul></div>"
 }
 }};
+
+// Full-library expansion registry. Clinical values are displayed only after product-level SmPC verification.
+const expansionCatalog={
+csDMARD:{
+"Leflunomide":["Arava 10 mg","Arava 20 mg","Leflunomide medac (EMA)","Leflunomide ratiopharm (EMA)","Leflunomide Zentiva (EMA)"],
+"Sulfasalazine":["Salazopyrin EN","Salazopyrin"],
+"Hydroxychloroquine":["Plaquenil"],
+"Azathioprine":["Imuran 25 mg","Imuran 50 mg","Imuger 25/50 mg","Jayempi (EMA)"],
+"Mycophenolate mofetil":["CellCept 250 mg capsules","CellCept 500 mg tablets","CellCept oral suspension","Myclausen (EMA)","Mycophenolate mofetil Teva (EMA)","Myfenax (EMA)"],
+"Mycophenolic acid":["Myfortic 180 mg","Myfortic 360 mg"],
+"Ciclosporin":["Neoral 25 mg","Neoral 50 mg","Neoral 100 mg","Neoral oral solution"],
+},
+bDMARD:{
+"Etanercept":["Enbrel 25 mg","Enbrel 50 mg","Enbrel paediatric 10 mg","Benepali 25 mg","Benepali 50 mg","Nepexto (EMA)"],
+"Infliximab":["Remicade","Inflectra","Flixabi","Remsima IV","Remsima SC","Zessly (EMA)"],
+"Certolizumab pegol":["Cimzia pre-filled syringe","Cimzia pre-filled pen"],
+"Golimumab":["Simponi 50 mg","Simponi 100 mg","Gobivaz 50 mg","Gobivaz 100 mg","Gotenfia (EMA)"],
+"Abatacept":["Orencia 125 mg SC pen","Orencia 50/87.5/125 mg SC syringe","Orencia 250 mg IV"],
+"Rituximab":["MabThera IV","Ruxience IV","Truxima IV","Rixathon (EMA)","Riximyo (EMA)","Ituxredi (EMA)"],
+"Tocilizumab":["RoActemra SC","RoActemra IV","Avtozma SC","Avtozma IV","Tyenne SC","Tyenne IV","Tocilizumab STADA (EMA)","Tofidence (EMA)"],
+"Sarilumab":["Kevzara"],
+"Anakinra":["Kineret"],
+"Secukinumab":["Cosentyx 150 mg","Cosentyx 300 mg"],
+"Ixekizumab":["Taltz"],
+"Bimekizumab":["Bimzelx"],
+"Ustekinumab":["Stelara / current product","Otulfi","Absimky (EMA)","Eksunbi (EMA)","Fymskina (EMA)","Imuldosa (EMA)"],
+"Guselkumab":["Tremfya"],
+"Risankizumab":["Skyrizi 150 mg"],
+"Belimumab":["Benlysta IV","Benlysta SC"],
+"Anifrolumab":["Saphnelo"],
+"Mepolizumab":["Nucala"]
+},
+tsDMARD:{
+"Baricitinib":["Olumiant 2 mg","Olumiant 4 mg"],
+"Tofacitinib":["Xeljanz 5 mg","Xeljanz 11 mg prolonged-release","Xeljanz oral solution"],
+"Upadacitinib":["Rinvoq 15 mg","Rinvoq 30 mg","Rinvoq 45 mg"],
+"Filgotinib":["Jyseleca 100 mg","Jyseleca 200 mg"]
+}};
+const commonIndications=["Rheumatoid arthritis","Psoriatic arthritis","Axial spondyloarthritis","Juvenile idiopathic arthritis","Systemic lupus erythematosus","Vasculitis","Other specialist indication"];
+function pendingMedicine(drug,brands){
+ return {brands,indications:commonIndications,clinician:[
+ ["Product verification status","<div class='note'><b>Structured SmPC extraction in progress.</b> This medicine is now in the application library, but clinical values are not displayed until the exact brand/formulation has been checked against its current Irish SmPC or, where no Irish product information is available, an identified EMA/UK SmPC.</div>"],
+ ["Dose & administration","<ul><li><b>Starting dose:</b> pending product-level verification</li><li><b>Loading dose:</b> pending product-level verification</li><li><b>Titration / escalation:</b> pending product-level verification</li><li><b>Maintenance dose:</b> pending product-level verification</li><li><b>Maximum / intensified regimen:</b> pending product-level verification</li><li><b>Route & frequency:</b> pending product-level verification</li><li><b>Special-population adjustments:</b> pending product-level verification</li></ul>"],
+ ["Before starting: tests & investigations","<ul><li>Product-specific SmPC warnings being extracted</li><li>Guideline-based pretreatment screening will be layered separately</li></ul>"],
+ ["Contraindications & precautions","<ul><li>SmPC section 4.3 — structured extraction pending</li><li>SmPC section 4.4 — structured extraction pending</li></ul>"],
+ ["Interactions","<ul><li>SmPC section 4.5 — structured extraction pending</li></ul>"],
+ ["Adverse effects & red flags","<ul><li>SmPC section 4.8 — structured extraction pending</li><li>Clinically important red flags will be highlighted separately</li></ul>"],
+ ["Monitoring","<ul><li>Drug-specific monitoring</li><li>Concomitant-DMARD monitoring</li><li>Disease activity / efficacy review</li><li>Risk-based monitoring</li></ul>"],
+ ["Special groups","<ul><li>Renal impairment</li><li>Hepatic impairment</li><li>Older people</li><li>Pregnancy / fertility</li><li>Breastfeeding</li><li>Paediatrics where licensed</li></ul>"],
+ ["Sources & provenance","<ul><li>Exact product and formulation</li><li>Irish SmPC preferred</li><li>EMA / UK SmPC explicitly labelled when used as fallback</li><li>SmPC version / revision date</li><li>Date verified</li><li>Guideline source kept separate from licence information</li></ul>"]
+ ],patient:[
+ ["About this medicine","<ul><li>Patient information is being prepared from the verified product information and trusted rheumatology patient resources.</li></ul>"],
+ ["How it is taken","<ul><li>Brand- and indication-specific instructions will appear here after verification.</li></ul>"],
+ ["Safety & monitoring","<ul><li>Plain-language safety, infection, vaccination and monitoring information will appear here after clinical verification.</li></ul>"]
+ ]};
+}
+for(const [cls,drugs] of Object.entries(expansionCatalog)){if(!meds[cls])meds[cls]={};for(const [drug,brands] of Object.entries(drugs)){if(!meds[cls][drug])meds[cls][drug]=pendingMedicine(drug,brands)}}
 const adalDoseRules={
 "Humira":{
 "Rheumatoid arthritis":"<div class='dosebox'><strong>Humira — adult RA</strong><ul><li><b>Starting / maintenance dose:</b> 40 mg subcutaneously every other week</li><li><b>With methotrexate:</b> methotrexate should be continued where appropriate</li><li><b>If response decreases on monotherapy:</b> 40 mg every week or 80 mg every other week may provide additional benefit</li><li><b>Maximum / intensified regimen:</b> the SmPC describes 40 mg weekly or 80 mg every other week for relevant RA patients; this is an escalation option rather than a routine starting dose</li><li><b>Route:</b> subcutaneous</li></ul><div class='foot'>Source: Humira Irish SmPC, section 4.2. Product-specific information retained in-app; source link is for provenance.</div></div>",
