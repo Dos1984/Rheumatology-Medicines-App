@@ -19,3 +19,8 @@ No patient-identifiable data are required or stored in this prototype.
 - HSE/MMP/PCRS as intended Irish reimbursement/availability layer
 
 Before clinical use, all drug records require formal pharmacy/rheumatology review and current SmPC verification.
+
+
+## SmPC verification lifecycle
+
+Clinical content is product-level and versioned. Irish medicines.ie SmPCs are preferred; EMA/UK product information may be used as an explicitly labelled fallback where an Irish SmPC is unavailable. A scheduled weekly audit checks tracked source revisions. A detected source change does **not** automatically overwrite prescribing data: affected clinical sections must be re-extracted and reviewed before the verified record is released. The app should display source jurisdiction, SmPC revision and last clinical verification date.
