@@ -170,5 +170,75 @@
     "jurisdiction": "IE",
     "url": "https://www.medicines.ie/active-ingredients/filgotinib-25767/",
     "known_revision": "current listing"
+  },
+  {
+    "drug": "Hydroxychloroquine",
+    "brand": "Plaquenil 200 mg",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/plaquenil-tablets-33380/spc",
+    "known_revision": "13/04/2026"
+  },
+  {
+    "drug": "Sulfasalazine",
+    "brand": "Salazopyrin tablets",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/salazopyrin-tablets-33670/spc",
+    "known_revision": "16/10/2024"
+  },
+  {
+    "drug": "Mycophenolate mofetil",
+    "brand": "CellCept 500 mg tablets",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/cellcept-500mg-film-coated-tablets-31588/spc",
+    "known_revision": "01/04/2026"
+  },
+  {
+    "drug": "Mycophenolic acid",
+    "brand": "Myfortic 360 mg",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/myfortic-360-mg-gastro-resistant-tablets-32968/spc",
+    "known_revision": "29/07/2026"
+  },
+  {
+    "drug": "Ciclosporin",
+    "brand": "Neoral representative oral formulation",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/neoral-25mg-soft-capsules-33002/spc",
+    "known_revision": "22/04/2026"
+  },
+  {
+    "drug": "Anakinra",
+    "brand": "Kineret 100 mg/0.67 mL",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/kineret-100-mg-0-67-ml-solution-for-injection-in-pre-filled-syringe-32599/spc",
+    "known_revision": "17/10/2025"
+  },
+  {
+    "drug": "Bimekizumab",
+    "brand": "Bimzelx 160 mg representative",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/bimzelx-160-mg-solution-for-injection-in-pre-filled-pen-35416/spc",
+    "known_revision": "19/05/2026"
+  },
+  {
+    "drug": "Ustekinumab",
+    "brand": "Stelara representative SC",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/stelara-45-mg-solution-for-injection-in-pre-filled-pen-35459/spc",
+    "known_revision": "30/07/2026"
+  },
+  {
+    "drug": "Guselkumab",
+    "brand": "Tremfya 100 mg OnePress",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/tremfya-100-mg-onepress-solution-for-injection-in-pre-filled-pen-34706/spc",
+    "known_revision": "05/01/2026"
+  },
+  {
+    "drug": "Mepolizumab",
+    "brand": "Nucala 100 mg",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/nucala-100-mg-powder-for-solution-for-injection-33145/spc",
+    "known_revision": "11/02/2026"
   }
 ]
