@@ -86,5 +86,89 @@
     "jurisdiction": "IE",
     "url": "https://www.medicines.ie/medicines/rinvoq-15-mg-prolonged-release-tablets-34904/spc",
     "known_revision": "07/08/2026"
+  },
+  {
+    "drug": "Etanercept",
+    "brand": "Enbrel representative SC",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/enbrel-25-mg-solution-for-injection-in-pre-filled-pen-32004/spc",
+    "known_revision": "16/07/2025"
+  },
+  {
+    "drug": "Infliximab",
+    "brand": "Remicade IV representative",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/remicade-powder-for-solution-for-infusion-33550",
+    "known_revision": "02/12/2025"
+  },
+  {
+    "drug": "Certolizumab pegol",
+    "brand": "Cimzia representative",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/active-ingredients/certolizumab-pegol-24476/",
+    "known_revision": "current listing"
+  },
+  {
+    "drug": "Golimumab",
+    "brand": "Simponi representative",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/active-ingredients/golimumab-24789",
+    "known_revision": "current listing"
+  },
+  {
+    "drug": "Rituximab",
+    "brand": "MabThera IV representative",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/active-ingredients/rituximab-25270",
+    "known_revision": "current listing"
+  },
+  {
+    "drug": "Tocilizumab",
+    "brand": "RoActemra IV representative",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/roactemra-20-mg-ml-concentrate-for-solution-for-infusion--33648/doc-history",
+    "known_revision": "26/03/2026"
+  },
+  {
+    "drug": "Tocilizumab",
+    "brand": "Tyenne SC representative",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/tyenne-162-mg-solution-for-injection-in-pre-filled-syringe-35472/doc-history",
+    "known_revision": "13/01/2026"
+  },
+  {
+    "drug": "Secukinumab",
+    "brand": "Cosentyx representative",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/active-ingredients/secukinumab-25295/",
+    "known_revision": "current listing"
+  },
+  {
+    "drug": "Ixekizumab",
+    "brand": "Taltz representative",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/active-ingredients/ixekizumab-24893/",
+    "known_revision": "current listing"
+  },
+  {
+    "drug": "Belimumab",
+    "brand": "Benlysta IV representative",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/benlysta-120-mg-and-400-mg-powder-for-concentrate-for-solution-for-infusion-31415/",
+    "known_revision": "24/07/2025"
+  },
+  {
+    "drug": "Anifrolumab",
+    "brand": "Saphnelo 300 mg IV",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/saphnelo-300-mg-concentrate-for-solution-for-infusion-35488/spc",
+    "known_revision": "07/09/2026"
+  },
+  {
+    "drug": "Filgotinib",
+    "brand": "Jyseleca 100/200 mg",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/active-ingredients/filgotinib-25767/",
+    "known_revision": "current listing"
   }
 ]
