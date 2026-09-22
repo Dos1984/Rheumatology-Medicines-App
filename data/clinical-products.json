@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.4",
+    "version": "1.4.1",
     "verified_on": "2026-09-22",
     "scope": "Representative Irish/EU SmPC-derived rheumatology prescribing dataset. Device-specific instructions remain product-specific.",
     "ui_note": "Exact brand/formulation selection restored. Brand-specific SmPC/EMA provenance is shown; Humira may serve as an explicitly labelled reference only for unextracted adalimumab fields.",
@@ -106,9 +106,9 @@
     {
       "c": "csDMARD",
       "d": "Methotrexate",
-      "b": "Metoject SC representative",
-      "src": "https://www.medicines.ie/",
-      "rev": "representative current product",
+      "b": "Metoject pre-filled pen (Ireland)",
+      "src": "https://www.medac.eu/fileadmin/user_upload/medac-eu/SPCs/Ireland/Metoject_Pen-spc-ie.pdf",
+      "rev": "Irish medac SmPC",
       "i": {
         "Rheumatoid arthritis": {
           "dose": "7.5 mg SC once weekly; increase gradually by 2.5 mg/week; generally max 25 mg/week; exceptional upper limit 30 mg/week where clinically justified.",
@@ -196,12 +196,18 @@
         ]
       },
       "section_links": {
-        "4.3": "https://www.medicines.ie/#4.3",
-        "4.4": "https://www.medicines.ie/#4.4",
-        "4.5": "https://www.medicines.ie/#4.5",
-        "4.6": "https://www.medicines.ie/#4.6",
-        "4.8": "https://www.medicines.ie/#4.8"
-      }
+        "4.1": "https://www.medac.eu/fileadmin/user_upload/medac-eu/SPCs/Ireland/Metoject_Pen-spc-ie.pdf",
+        "4.2": "https://www.medac.eu/fileadmin/user_upload/medac-eu/SPCs/Ireland/Metoject_Pen-spc-ie.pdf",
+        "4.3": "https://www.medac.eu/fileadmin/user_upload/medac-eu/SPCs/Ireland/Metoject_Pen-spc-ie.pdf",
+        "4.4": "https://www.medac.eu/fileadmin/user_upload/medac-eu/SPCs/Ireland/Metoject_Pen-spc-ie.pdf",
+        "4.5": "https://www.medac.eu/fileadmin/user_upload/medac-eu/SPCs/Ireland/Metoject_Pen-spc-ie.pdf",
+        "4.6": "https://www.medac.eu/fileadmin/user_upload/medac-eu/SPCs/Ireland/Metoject_Pen-spc-ie.pdf",
+        "4.8": "https://www.medac.eu/fileadmin/user_upload/medac-eu/SPCs/Ireland/Metoject_Pen-spc-ie.pdf"
+      },
+      "source_type": "Irish SmPC — medac product information",
+      "market_status": "Metoject pre-filled pen is authorised in Ireland; HPRA product records available. The medac Irish SmPC is used because a corresponding Metoject page was not found in the current medicines.ie methotrexate listing.",
+      "hpra_url": "https://www.hpra.ie/find-a-medicine/for-human-use/authorised-medicines/details/19344",
+      "brand_verification": "Exact Metoject Irish product source; no longer linked to generic medicines.ie."
     },
     {
       "c": "csDMARD",
