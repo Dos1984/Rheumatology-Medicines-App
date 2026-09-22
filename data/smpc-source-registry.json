@@ -44,5 +44,47 @@
     "jurisdiction": "IE",
     "url": "https://www.medicines.ie/medicines/skyrizi-150-mg-solution-for-injection-in-pre-filled-pen-35083",
     "known_revision": "14/09/2026"
+  },
+  {
+    "drug": "Leflunomide",
+    "brand": "Arava 20 mg",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/arava-20-mg-film-coated-tablets-31308",
+    "known_revision": "24/07/2026"
+  },
+  {
+    "drug": "Azathioprine",
+    "brand": "Imuran 25 mg",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/imuran-tablets-25mg-32446",
+    "known_revision": "05/01/2026"
+  },
+  {
+    "drug": "Abatacept",
+    "brand": "Orencia SC representative syringe",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/orencia-50-mg-87-5-mg-and-125-mg-solution-for-injection-pre-filled-syringe--33241",
+    "known_revision": "12/06/2026"
+  },
+  {
+    "drug": "Baricitinib",
+    "brand": "Olumiant 2/4 mg",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/olumiant-2-mg-and-4-mg-film-coated-tablets-33207",
+    "known_revision": "13/05/2026"
+  },
+  {
+    "drug": "Tofacitinib",
+    "brand": "Xeljanz 5 mg",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/xeljanz-5mg-film-coated-tablets-34249/spc",
+    "known_revision": "18/08/2026"
+  },
+  {
+    "drug": "Upadacitinib",
+    "brand": "Rinvoq 15 mg representative rheumatology strength",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/rinvoq-15-mg-prolonged-release-tablets-34904/spc",
+    "known_revision": "07/08/2026"
   }
 ]
