@@ -19,5 +19,30 @@
     "jurisdiction": "IE",
     "url": "https://www.medicines.ie/medicines/roactemra-162-mg-solution-for-injection-in-pre-filled-pen-33646",
     "known_revision": "26/3/2026"
+  },
+  {
+    "drug": "Methotrexate",
+    "brand": "ADVANZ 2.5 mg tablets",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/methotrexate-2-5-mg-tablets-34745",
+    "known_revision": "14/09/2026",
+    "clinical_change_sections": [
+      "4.4",
+      "4.8"
+    ]
+  },
+  {
+    "drug": "Abatacept",
+    "brand": "Orencia 125 mg SC",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/orencia-125-mg-solution-for-injection-in-pre-filled-pen-33240",
+    "known_revision": "12/06/2026"
+  },
+  {
+    "drug": "Risankizumab",
+    "brand": "Skyrizi 150 mg",
+    "jurisdiction": "IE",
+    "url": "https://www.medicines.ie/medicines/skyrizi-150-mg-solution-for-injection-in-pre-filled-pen-35083",
+    "known_revision": "14/09/2026"
   }
 ]
