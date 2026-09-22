@@ -1,0 +1,25 @@
+name: SmPC freshness audit
+on:
+  schedule:
+    - cron: '17 5 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check tracked SmPC pages
+        run: python scripts/smpc_freshness_audit.py
+      - name: Commit audit snapshot
+        run: |
+          git config user.name "smpc-audit-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/smpc-audit.json
+          git diff --cached --quiet || git commit -m "Weekly SmPC freshness audit"
+          git push
