@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "generated_on": "2026-09-23",
-  "status": "canonical regulatory master reconciled; exact-source mappings replace known cross-brand substitutions. Live app promotion remains separate from quarterly review.",
+  "status": "canonical regulatory master reconciled at brand/formulation level; quarterly audit enabled. Clinical release remains review-gated.",
   "source_hierarchy": [
     "medicines.ie exact product SmPC",
     "HPRA exact authorised/withdrawn product record or SmPC",
@@ -4222,8 +4222,8 @@
       "formulation": "",
       "class": "bDMARD",
       "source_url": "https://www.medicines.ie/medicines/roactemra-162-mg-solution-for-injection-in-pre-filled-pen-33646/spc",
-      "source_type": null,
-      "source_status": "existing-app-source",
+      "source_type": "medicines.ie exact SC product",
+      "source_status": "exact-source-resolved-2026-09-23",
       "regulatory_status": "not yet normalised",
       "app_record": {
         "c": "bDMARD",
@@ -4322,9 +4322,9 @@
       "brand_product": "RoActemra IV",
       "formulation": "",
       "class": "bDMARD",
-      "source_url": "https://www.medicines.ie/medicines/roactemra-162-mg-solution-for-injection-in-pre-filled-pen-33646/spc",
-      "source_type": null,
-      "source_status": "existing-app-source",
+      "source_url": "https://www.medicines.ie/medicines/roactemra-20-mg-ml-concentrate-for-solution-for-infusion--33648",
+      "source_type": "medicines.ie exact IV product",
+      "source_status": "exact-source-resolved-2026-09-23",
       "regulatory_status": "not yet normalised",
       "app_record": {
         "c": "bDMARD",
