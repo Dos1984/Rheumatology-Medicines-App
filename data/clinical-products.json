@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.5.1",
+    "version": "1.6",
     "verified_on": "2026-09-22",
     "scope": "Representative Irish/EU SmPC-derived rheumatology prescribing dataset. Device-specific instructions remain product-specific.",
     "ui_note": "Exact brand/formulation selection restored. Brand-specific SmPC/EMA provenance is shown; Humira may serve as an explicitly labelled reference only for unextracted adalimumab fields.",
@@ -8,7 +8,8 @@
     "clinician_rule": "Clinician accordions contain in-app section summaries. External SmPC links are supplemental provenance/deep links, not instructions to look up missing core information.",
     "source_hierarchy": "Exact medicines.ie product SmPC first; if unavailable, exact HPRA product/SmPC; if unavailable or HPRA routes centrally authorised documentation to EMA, exact EMA product information/SmPC. Never substitute an active-ingredient landing page as product provenance.",
     "source_audit_status": "Source hierarchy implemented; exact-brand provenance audit is ongoing and unresolved entries must be labelled rather than silently substituted.",
-    "monitoring_rule": "Monitoring content must be medicine-specific. Do not display class-wide q3–6 month laboratory schedules unless the selected medicine itself or a clearly labelled concomitant-therapy guideline requires them."
+    "monitoring_rule": "Monitoring content must be medicine-specific. Do not display class-wide q3–6 month laboratory schedules unless the selected medicine itself or a clearly labelled concomitant-therapy guideline requires them.",
+    "indication_rule": "Indication selector should enumerate all licensed indications in the selected product's current SmPC section 4.1, plus one clearly labelled Additional conditions outside licensed indications option. Do not infer a licensed indication across brands without source verification."
   },
   "products": [
     {
@@ -4881,6 +4882,103 @@
         "Axial spondyloarthritis": {
           "dose": "40 mg SC every other week.",
           "route": "SC"
+        },
+        "Polyarticular juvenile idiopathic arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Enthesitis-related arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ankylosing spondylitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-radiographic axial spondyloarthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Hidradenitis suppurativa": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-infectious uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Additional conditions outside licensed indications": {
+          "licensed": false,
+          "dose": [
+            "Specialist/off-label use: no licensed SmPC regimen is implied. Use indication-specific evidence, governance and local policy."
+          ]
         }
       },
       "safety": {
@@ -4991,6 +5089,103 @@
         "Axial spondyloarthritis": {
           "dose": "40 mg SC every other week.",
           "route": "SC"
+        },
+        "Polyarticular juvenile idiopathic arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Enthesitis-related arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ankylosing spondylitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-radiographic axial spondyloarthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Hidradenitis suppurativa": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-infectious uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Additional conditions outside licensed indications": {
+          "licensed": false,
+          "dose": [
+            "Specialist/off-label use: no licensed SmPC regimen is implied. Use indication-specific evidence, governance and local policy."
+          ]
         }
       },
       "safety": {
@@ -5101,6 +5296,103 @@
         "Axial spondyloarthritis": {
           "dose": "40 mg SC every other week.",
           "route": "SC"
+        },
+        "Polyarticular juvenile idiopathic arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Enthesitis-related arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ankylosing spondylitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-radiographic axial spondyloarthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Hidradenitis suppurativa": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-infectious uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Additional conditions outside licensed indications": {
+          "licensed": false,
+          "dose": [
+            "Specialist/off-label use: no licensed SmPC regimen is implied. Use indication-specific evidence, governance and local policy."
+          ]
         }
       },
       "safety": {
@@ -5211,6 +5503,103 @@
         "Axial spondyloarthritis": {
           "dose": "40 mg SC every other week.",
           "route": "SC"
+        },
+        "Polyarticular juvenile idiopathic arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Enthesitis-related arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ankylosing spondylitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-radiographic axial spondyloarthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Hidradenitis suppurativa": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-infectious uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Additional conditions outside licensed indications": {
+          "licensed": false,
+          "dose": [
+            "Specialist/off-label use: no licensed SmPC regimen is implied. Use indication-specific evidence, governance and local policy."
+          ]
         }
       },
       "safety": {
@@ -5321,6 +5710,103 @@
         "Axial spondyloarthritis": {
           "dose": "40 mg SC every other week.",
           "route": "SC"
+        },
+        "Polyarticular juvenile idiopathic arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Enthesitis-related arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ankylosing spondylitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-radiographic axial spondyloarthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Hidradenitis suppurativa": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-infectious uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Additional conditions outside licensed indications": {
+          "licensed": false,
+          "dose": [
+            "Specialist/off-label use: no licensed SmPC regimen is implied. Use indication-specific evidence, governance and local policy."
+          ]
         }
       },
       "safety": {
@@ -5431,6 +5917,103 @@
         "Axial spondyloarthritis": {
           "dose": "40 mg SC every other week.",
           "route": "SC"
+        },
+        "Polyarticular juvenile idiopathic arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Enthesitis-related arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ankylosing spondylitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-radiographic axial spondyloarthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Hidradenitis suppurativa": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-infectious uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Additional conditions outside licensed indications": {
+          "licensed": false,
+          "dose": [
+            "Specialist/off-label use: no licensed SmPC regimen is implied. Use indication-specific evidence, governance and local policy."
+          ]
         }
       },
       "safety": {
@@ -5541,6 +6124,103 @@
         "Axial spondyloarthritis": {
           "dose": "40 mg SC every other week.",
           "route": "SC"
+        },
+        "Polyarticular juvenile idiopathic arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Enthesitis-related arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ankylosing spondylitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-radiographic axial spondyloarthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Hidradenitis suppurativa": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-infectious uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Additional conditions outside licensed indications": {
+          "licensed": false,
+          "dose": [
+            "Specialist/off-label use: no licensed SmPC regimen is implied. Use indication-specific evidence, governance and local policy."
+          ]
         }
       },
       "safety": {
@@ -5651,6 +6331,103 @@
         "Axial spondyloarthritis": {
           "dose": "40 mg SC every other week.",
           "route": "SC"
+        },
+        "Polyarticular juvenile idiopathic arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Enthesitis-related arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ankylosing spondylitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-radiographic axial spondyloarthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Hidradenitis suppurativa": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-infectious uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Additional conditions outside licensed indications": {
+          "licensed": false,
+          "dose": [
+            "Specialist/off-label use: no licensed SmPC regimen is implied. Use indication-specific evidence, governance and local policy."
+          ]
         }
       },
       "safety": {
@@ -5761,6 +6538,103 @@
         "Axial spondyloarthritis": {
           "dose": "40 mg SC every other week.",
           "route": "SC"
+        },
+        "Polyarticular juvenile idiopathic arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Enthesitis-related arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ankylosing spondylitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-radiographic axial spondyloarthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Hidradenitis suppurativa": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-infectious uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Additional conditions outside licensed indications": {
+          "licensed": false,
+          "dose": [
+            "Specialist/off-label use: no licensed SmPC regimen is implied. Use indication-specific evidence, governance and local policy."
+          ]
         }
       },
       "safety": {
@@ -5871,6 +6745,103 @@
         "Axial spondyloarthritis": {
           "dose": "40 mg SC every other week.",
           "route": "SC"
+        },
+        "Polyarticular juvenile idiopathic arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Enthesitis-related arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ankylosing spondylitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-radiographic axial spondyloarthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Hidradenitis suppurativa": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-infectious uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Additional conditions outside licensed indications": {
+          "licensed": false,
+          "dose": [
+            "Specialist/off-label use: no licensed SmPC regimen is implied. Use indication-specific evidence, governance and local policy."
+          ]
         }
       },
       "safety": {
@@ -5981,6 +6952,103 @@
         "Axial spondyloarthritis": {
           "dose": "40 mg SC every other week.",
           "route": "SC"
+        },
+        "Polyarticular juvenile idiopathic arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Enthesitis-related arthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ankylosing spondylitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-radiographic axial spondyloarthritis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric plaque psoriasis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Hidradenitis suppurativa": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric Crohn's disease": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric ulcerative colitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Non-infectious uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Paediatric uveitis": {
+          "dose": [
+            "See the selected product's indication-specific SmPC section 4.2; this regimen has not yet been released into the in-app structured dose field."
+          ],
+          "route": "SC",
+          "licensed": true
+        },
+        "Additional conditions outside licensed indications": {
+          "licensed": false,
+          "dose": [
+            "Specialist/off-label use: no licensed SmPC regimen is implied. Use indication-specific evidence, governance and local policy."
+          ]
         }
       },
       "safety": {
